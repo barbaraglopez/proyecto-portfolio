@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/64586cd330.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Barbara Lopez</title>
     <link rel="stylesheet" href="css/estilo.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#">HOLA</a></li>
-                <li><a href="#">CONOCIMIENTOS</a></li>
-                <li><a href="#">PROYECTOS</a></li>
-                <li class="contact-button"><a href="#">CONTACTO</a></li>
+                <li><a href="#presentacion" class="nav-option">HOLA</a></li>
+                <li><a href="#conocimientos" class="nav-option">CONOCIMIENTOS</a></li>
+                <li><a href="#proyectos" class="nav-option">PROYECTOS</a></li>
+                <li class="contact-button"><a href="#contacto">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="about-introduction">
+        <section class="about-introduction" id="presentacion">
             <div class="introduction-banner">
                 <p class="about-intro">¡Hola! Soy<p>
                 <h1>Bárbara López</h1>
-                <p class="about-description">Desarrolladora, pintora y viajera</p>
+                <p class="about-description">Programadora, pintora y viajera</p>
                 <div class="info-button"> 
                     <a href="#"><p>LO QUE HAGO</p></a>
                 </div>
             </div>
                 <img src="img/foto2.svg" alt="imagen-presentation">
         </section>
-        <section class="my-skills">
+        <section id="conocimientos" class="my-skills">
             <div class="skills-title">
                 <h2>Mis conocimientos</h2>
                 <p>
@@ -42,14 +40,14 @@
             </div>
             <div class="skills-containers">
                 <div class="skills-a">
-                    <div class="skill-box">A</div>
-                    <div class="skill-box">B</div>
-                    <div class="skill-box">C</div>
+                    <div class="skill-box"><img src="img/html5-byn.svg" alt="html logo"><p>HTML 5</p></div>
+                    <div class="skill-box"><img src="img/css-3 (1).svg" alt="css logo"><p>CSS 3</p></div>
+                    <div class="skill-box"><img src="img/sass-byn.svg" alt="sass logo"><p>SASS</p></div>
                 </div>
                 <div class="skills-b">
-                    <div class="skill-box">D</div>
-                    <div class="skill-box">E</div>
-                    <div class="skill-box">F</div>
+                    <div class="skill-box"><img src="img/javas.svg" alt="javascript logo"><P>JAVASCRIPT</P></div>
+                    <div class="skill-box"><img src="img/react.svg" alt="react logo"><P>REACT</P></div>
+                    <div class="skill-box"><img src="img/git.svg" alt="git logo"><p>GIT</p></div>
                 </div>
             </div>
         </section>
@@ -59,35 +57,90 @@
             </div>
             <blockquote>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius libero sit omnis, quia ipsam iusto sed accusantium? Numquam inventore error veritatis velit saepe quod soluta quos omnis modi, quibusdam ab cupiditate beatae molestiae laboriosam hic corrupti vitae fuga, tenetur sunt.
+                    "Los analfabetos del siglo XXI no serán aquellos que no sepan leer o escribir, sino aquellos que no puedan aprender, desaprender y reaprender."
                 </p>
             </blockquote>
             <div class="extra-info-bottom">
-                <h2>Someone</h2>
-            </section>   
-            <section class="proyects">
-                <h2>Mis proyectos</h2>
+                <h2>Alvin Toffler</h2>
+            </div>    
+        </section>   
+        <section id="proyectos" class="proyects">
+            <div class="my-proyects">
+                <h2 >Mis proyectos</h2>
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi perferendis sint rem voluptatum velit, odio ut qui quia, ipsa ipsam id vero ratione optio quidem itaque neque sapiente, adipisci quod.
+                   Aqui les dejo unos proyectos realizados a lo largo del primer modulo de mi cursada en Ada. Espero les gusten!
                 </p>
-             
-            <div class="proyects-containers">
+            </div>
+             <div class="proyects-containers">
                 <div class="proyects-a">
-                    <div class="proyect-box">1</div>
-                    <div class="proyect-box">2</div>     
-                    <div class="proyect-box">3</div>
+                    <div class="proyect-box"><img src="img/foto2.svg" alt="carilla portfolio"><a href="#">Portfolio</a></div>
+                    <div class="proyect-box"><img src="img/generador-de-memes.svg" alt="generador de memes"><p>Generador de Memes</p></div>     
+                    <div class="proyect-box"><img src="img/match.svg" alt="match"><p>Match</p></div>
                 </div>
                 <div class="proyects-b">
-                    <div class="proyect-box">4</div>
-                    <div class="proyect-box">5</div>     
-                    <div class="proyect-box">6</div>
+                    <div class="proyect-box"><img src="img/generador-de-gastos.svg" alt="controlador de gastos"><p>Controlador de Gastos</p></a></div>
+                    <div class="proyect-box"><img src="img/tiempo.svg" alt="administrador de reuniones"><p>Administrador de reuniones</p></div>     
+                    <div class="proyect-box"><img src="img/todo-app.svg"><p>Todo App</p></div>
                 </div>   
                 <div class="proyects-c">
-                    <div class="proyec-box">7</div>
+                    <div class="proyect-box"><img src="img/buscador-de-peliculas.svg" alt="buscador de peliculas"><p>Buscador de peliculas</p></div>
                 </div>
             </div>
         </section>
-       </main>
-    <footer></footer>
+        <section>
+            <div id="contacto" class="contact-section"> 
+                <div class="contact-container">
+                    <h2 class="contact-form">Contactame</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, voluptatibus beatae tempore ullam cupiditate in tempora fugiat, unde id, corrupti ea architecto vero quam repellat. Officia provident voluptatem assumenda earum!
+                    </p>
+                    <div class="contact-list">
+                        <i class="fab fa-instagram"><a href="#" class="contact">barby.loopez</a></i>
+                        <i class="fab fa-linkedin"><a href="#" class="contact">barbara-gabriela-lopez</a></i>
+                        <i class="fab fa-github-alt"><a href="#" class="contact">barbaraglopez</a></i>
+                        <i class="far fa-envelope"><a href="#" class="contact">barbaralopezbbbb</a></i>
+                    </div>
+                </div>    
+                <div class="form-container">
+                    <h2 class="contact-form">
+                        Escribeme
+                    </h2>
+                    <form>
+                        <label name="nombre" for= "name">Nombre <abbr title="required" aria-label="required">*</abbr></label>
+                            <input id= "name" type="text" name="nombre" placeholder="por ej Bárbara" size="40">
+                        <label name="lastname" for="lastname">Apellido <abbr title="required" aria-label="required">*</abbr></label>
+                            <input type="text" name="apellido" placeholder="por ej López" size="40">
+                        <label name="email" for="email">Email </label>
+                            <input id="email" type="email" name="email" placeholder="por ej barbaralopezbbbb@gmail" size="40">
+                        <div class="textarea">
+                            <label name="textarea" for="textarea">Mensaje</label>
+                                <textarea type name="comentarios" placeholder="deja un mensaje" size="40"></textarea>
+                            <input type="submit" name="enviar">
+                        </div>
+                    </form>
+                </div>
+        </section>
+        </main>
+        <footer>    
+            <div class="footer">
+                <div class="section-container">
+                    <ul>
+                        <li><a href="#presentacion">HOLA</a></li>
+                        <li><a href="#conocimientos">CONOCIMIENTOS</a></li>
+                        <li><a href="#proyectos">PROYECTOS</a></li>
+                        <li><a href="#contacto">CONTACTO</a></li>
+                    </ul>           
+                </div>
+                <div class="social-contact">
+                    <i class="fab fa-instagram"><a href="#" class="footer-icon"></a></i>
+                    <i class="fab fa-linkedin"><a href="#" class="footer-icon"></a></i>
+                    <i class="fab fa-github-alt"><a href="#" class="footer-icon"></a></i>
+                    <i class="far fa-envelope"><a href="#" class="footer-icon"></a></i>
+                </div>
+                <div class="author">
+                    <p>Hecho con 💓por Bárbara</p>
+                </div>
+            </div>    
+        </footer>
 </body>
 </html>
