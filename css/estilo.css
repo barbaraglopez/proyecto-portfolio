@@ -417,6 +417,7 @@ i:hover{
 input{
     margin: 0.5em 1em;
     border-radius: 2.5em solid black;
+    max-width:20em;
 }
 
 label{
@@ -424,22 +425,17 @@ label{
     border-radius: 1.5em solid black;
 }
 
-input[name=email]
-
-.textarea label{
-    /* margin-right: 5px; */
-}
-
 label[name=textarea]{
     display:block;
     margin-bottom:0.6em;
     margin-left: -0.8em;
+    margin-top: 0.3em;
 }
 
 .textarea{
     display: block;
     max-width: 25em;
-    margin-left: 0.6em;
+    margin-left: 0.6em;   
 }
 
 form{
@@ -447,13 +443,18 @@ form{
 }
 
 .btn{
-    background-color:rgb(190, 34, 190); 
+    background-color:rgb(173, 172, 172); 
     font-weight: bold;
     padding: 0.8em;
     display: block;
-    text-align: center;
-    margin: 1em 8.9em;
+    margin: 0.8em auto;
+    color:white;
 }
+
+.btn:hover{
+    border: 0.1em solid rgb(190, 34, 190);
+}
+
 
 /*////footer////*/
 .footer{
