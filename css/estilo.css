@@ -376,7 +376,7 @@ blockquote{
 .contact-form{
     font-size: 68px;
     font-weight:900; 
-    padding: 20px;
+    padding: 0.7em;
     font-family:'Allison', cursive;
 }
 
@@ -409,37 +409,50 @@ i:hover{
     display: flex;
     justify-content:center;
     flex-wrap: wrap;
-    max-width: 350px;
+    max-width: 19em;
+    align-items: center;
+    margin-top: -1.5em;
     }
 
 input{
-    margin: 10px 50px;
+    margin: 0.5em 1em;
+    border-radius: 2.5em solid black;
 }
 
 label{
     font-size: 12px;
+    border-radius: 1.5em solid black;
 }
 
-input[name=email]{
-    margin-bottom: 35px;
+input[name=email]
+
+.textarea label{
+    /* margin-right: 5px; */
+}
+
+label[name=textarea]{
+    display:block;
+    margin-bottom:0.6em;
+    margin-left: -0.8em;
 }
 
 .textarea{
-    display: flex;
-    align-items: flex-start;
+    display: block;
+    max-width: 25em;
+    margin-left: 0.6em;
 }
 
-.textarea label{
-    margin-right: 5px;
+form{
+    margin-top: -5em;
 }
 
-.textarea textarea{
-    width: 250px;
-    height: 100px;
-}
-
-.form-container{
-    padding:0px 40px;
+.btn{
+    background-color:rgb(190, 34, 190); 
+    font-weight: bold;
+    padding: 0.8em;
+    display: block;
+    text-align: center;
+    margin: 1em 8.9em;
 }
 
 /*////footer////*/
