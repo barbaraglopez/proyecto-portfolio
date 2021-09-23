@@ -32,7 +32,7 @@ nav{
     justify-content: flex-end;
     box-shadow: 0.1em 0.2em 1.7em 0.4em rgba(250, 242, 242, 0.884);
     background-color:#424949; 
-    height: 9em;
+    height: 5em;
 }
 
 nav ul{
@@ -87,14 +87,14 @@ main .about-introduction{
 
 .introduction-banner .about-intro{
     font-weight:800;
-    font-size: 3em;
+    font-size: 1.2em;
     margin-left: -0.9em;
     margin-top: 1.25;
     color: #B3B6B7;
 }
 
 .introduction-banner h1{
-    font-size: 5em;
+    font-size: 4em;
     font-weight: 900;
     font-family:'Lobster', cursive; 
     color:#A3B3B5;
@@ -104,7 +104,7 @@ main .about-introduction{
 }
 
 .introduction-banner .about-description{
-    font-size: 1.9em;
+    font-size: 1em;
     font-weight: 400;
     padding-top: 1.3em;
     padding-bottom: 2.2em;
@@ -116,7 +116,7 @@ main .about-introduction{
     display: flex;
     width: 70%;
     color: #FFFF;
-    font-size: 1.3em;
+    font-size: 0.9em;
     font-weight: 450;
     background-color:#494e4e;
     border-radius: 1.5em;
@@ -217,7 +217,8 @@ main .about-introduction{
 }
 
 .skill-box:hover{
-    border: 0.5em solid black;
+    border: 0.1em solid black;
+    
 }
 
 .skill-box p:hover{
