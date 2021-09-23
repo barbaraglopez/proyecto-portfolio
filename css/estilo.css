@@ -20,7 +20,7 @@ header{
 a{
     text-decoration: none;
     color:white;
-    font-size: 0.7em;
+    font-size: 0.9em;
     margin: 0em 0.9em;
     font-weight: 300;
     color: white;
@@ -31,7 +31,7 @@ nav{
     justify-content: flex-end;
     box-shadow: 0.1em 0.2em 1.7em 0.4em rgba(250, 242, 242, 0.884);
     background-color:#424949; 
-    height: 5em;
+    height: 9em;
 }
 
 nav ul{
@@ -44,7 +44,7 @@ nav ul{
 
 .nav-option:hover{
     color: thistle;
-    padding: 0.5em;
+    padding: 0.2em;
     font-weight: bold;
 }
 
@@ -72,7 +72,7 @@ main .about-introduction{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 9.3em 8.12em;
+    padding: 11em 8.12em;
     background-color: black;
     flex-wrap: wrap;
     align-items: center;
@@ -86,14 +86,14 @@ main .about-introduction{
 
 .introduction-banner .about-intro{
     font-weight:800;
-    font-size: 2em;
+    font-size: 3em;
     margin-left: -0.9em;
     margin-top: 1.25;
     color: #B3B6B7;
 }
 
 .introduction-banner h1{
-    font-size: 3em;
+    font-size: 5em;
     font-weight: 900;
     font-family:'Lobster', cursive; 
     color:#A3B3B5;
@@ -103,7 +103,7 @@ main .about-introduction{
 }
 
 .introduction-banner .about-description{
-    font-size: 1em;
+    font-size: 1.9em;
     font-weight: 400;
     padding-top: 1.3em;
     padding-bottom: 2.2em;
@@ -115,11 +115,11 @@ main .about-introduction{
     display: flex;
     width: 70%;
     color: #FFFF;
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: 450;
     background-color:#494e4e;
     border-radius: 1.5em;
-    padding: 0.7em 1em;
+    padding: 0.9em 1.2em;
     justify-content: center;
     margin-left: -1.5em;
     justify-content: center;
@@ -353,47 +353,51 @@ blockquote{
 .contact-section{
     display: flex;
     justify-content: center;
-    margin: 90px 110px;
+    margin: 6em 6em;
     background-color:black;
-    padding: 30px 20px;
     border: 2px solid white;
     color: white;
+    padding: 1em;
+    flex-wrap: wrap;
 }
 
 .contact-container{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    padding:0px 25px;
+    padding:0em 1em 0em 0em;
+    margin-left: -0.9em;
 }
 
 .contact-container p{
-    font-size: 13px;
-    max-width: 350px;
+    font-size: 0.7em;
+    max-width: 25em;
     padding-right: 60px;
 }
 
 
 .contact-form{
-    font-size: 68px;
+    font-size: 5em;
     font-weight:900; 
-    padding: 0.7em;
+    margin:0.3em auto;
     font-family:'Allison', cursive;
+    
 }
 
 .contact-list{
-    padding: 20px;
+    padding-top:0.5em;
     display: flex;
     flex-direction: column;
 }
 
 .contact-container .contact-list i{
-    padding: 20px 15px;
+    padding: 1em 0.2em;
 }
 
 
 i a{
     color:white;
-    font: size 1em;
+    font-size: 0.7em;
     font-family:'Montserrat', sans-serif;
 }
 
@@ -407,54 +411,57 @@ i:hover{
 
 .form-container {
     display: flex;
-    justify-content:center;
     flex-wrap: wrap;
+    justify-content: center;
     max-width: 19em;
-    align-items: center;
-    margin-top: -1.5em;
-    }
+    max-height: 20%;
+}
 
 input{
+    display: block;
     margin: 0.5em 1em;
-    border-radius: 2.5em solid black;
-    max-width:20em;
+    border-radius: 0.4em;
+    max-width:19em;
+    padding: 0.5em;
 }
 
 label{
     font-size: 12px;
-    border-radius: 1.5em solid black;
+    border-radius: 1.5em;
 }
 
 label[name=textarea]{
     display:block;
-    margin-bottom:0.6em;
-    margin-left: -0.8em;
-    margin-top: 0.3em;
+    margin:0.3em 0em 0.6em -0.8em; 
 }
 
 .textarea{
     display: block;
     max-width: 25em;
-    margin-left: 0.6em;   
+    margin-left: 0.6em;
 }
 
 form{
-    margin-top: -5em;
+    margin-top: -2em;
+    padding-top: 0.5em;
 }
 
 .btn{
-    background-color:rgb(173, 172, 172); 
+    background-color:white; 
     font-weight: bold;
     padding: 0.8em;
     display: block;
     margin: 0.8em auto;
-    color:white;
+    color:black;
+    width: 30%;
+    height: 10%;
+    border-radius: 2.8em;
 }
 
 .btn:hover{
-    border: 0.1em solid rgb(190, 34, 190);
+  background-color:rgb(190, 34, 190); 
+  color:white;
 }
-
 
 /*////footer////*/
 .footer{
