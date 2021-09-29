@@ -374,8 +374,7 @@ blockquote{
 .contact-container{
     display: flex;
     flex-direction: column;
-    padding:0em 1em 0em 0em;
-    margin-left: 2.2em;
+    padding:0em 1em 0em 1em;
 }
 
 .contact-container p{
@@ -388,7 +387,8 @@ blockquote{
 .contact-form{
     font-size: 5em;
     font-weight:900; 
-    margin:0.3em auto;
+    margin-top: 0.1em;
+    margin-bottom: 0.3em;
     font-family:'Allison', cursive;
 }
 
@@ -429,9 +429,7 @@ blockquote{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 50%;
 }
-
 .div-dad{
     display: flex;
     flex-direction: column;
@@ -440,14 +438,6 @@ blockquote{
 
 .first{
     display: flex;
-}
-
-.form{
-    margin-bottom: 15px;
-}
-
-.prueba{
-    display: block;
 }
 
 .first{
@@ -459,7 +449,6 @@ blockquote{
 .form1{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     max-width: 60em;
     flex: 1;
 }
@@ -467,16 +456,15 @@ blockquote{
 .form2{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     position: relative;
-    bottom: 71px;
-    left: 190px;
+    bottom: 63px;
+    left: 180px;
     max-width: 50em;
     flex: 1;
 }
 
 label{
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 
 input[name=name]{
@@ -492,7 +480,7 @@ input[name=lastname]{
  }
 
  input[name=email]{
-    min-width: 85%;
+    min-width: 100%;
     display: block;
     margin-bottom: 1em;
     padding: 0.6em 0.1em;
@@ -501,13 +489,12 @@ input[name=lastname]{
 
  label[name=email]{
     display: block;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
  }
 
  input, textarea{
      border-radius: 1em;
-     transition: all 0.3s;
-     
+     transition: all 0.3s;    
  }
 
 .second{
@@ -531,7 +518,7 @@ input[name=comentaris]{
 textarea:focus, input:focus, button:focus{
     border:2px solid rgb(136, 50, 136); 
     border-radius: 1.5em;   
-    outline: 0;
+    outline: 0 none;
     box-shadow: 1px 1px 15px 7px rgb(136, 50, 136);    
 }
 
@@ -541,7 +528,7 @@ textarea:focus, input:focus, button:focus{
     padding-bottom: 2em;
     padding-top: 0.7em;
     display: block;
-    margin-top: 1.5em;
+    margin-top: 1em;
     margin-left: 0.2em;
     color:black;
     width: 20%;
