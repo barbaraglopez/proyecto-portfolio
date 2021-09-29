@@ -363,7 +363,7 @@ blockquote{
 /*//// Section 5 ////*/
 .contact-section{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-evenly;
     margin: 6em 6em;
     background-color:black;
     border: 2px solid white;
@@ -375,13 +375,14 @@ blockquote{
     display: flex;
     flex-direction: column;
     padding:0em 1em 0em 0em;
-    margin-left: -0.9em;
+    margin-left: 2.2em;
 }
 
 .contact-container p{
     font-size: 0.7em;
     max-width: 25em;
     padding-right: 60px;
+
 }
 
 .contact-form{
@@ -431,9 +432,10 @@ blockquote{
     width: 50%;
 }
 
-.prueba{
+.div-dad{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .first{
@@ -442,8 +444,6 @@ blockquote{
 
 .form{
     margin-bottom: 15px;
-    flex-grow: 1;
-    position: relative;
 }
 
 .prueba{
@@ -461,6 +461,7 @@ blockquote{
     flex-direction: column;
     justify-content: flex-start;
     max-width: 60em;
+    flex: 1;
 }
 
 .form2{
@@ -468,9 +469,10 @@ blockquote{
     flex-direction: column;
     justify-content: flex-end;
     position: relative;
-    bottom: 60px;
+    bottom: 71px;
     left: 190px;
     max-width: 50em;
+    flex: 1;
 }
 
 label{
@@ -480,19 +482,21 @@ label{
 input[name=name]{
     width: 100%;
     display: inline;
-    padding: 0.1em 0em;
+    padding: 0.5em 0.1em;
  }
 
 input[name=lastname]{
     width: 100%;
     display: inline;
-    padding: 0.2em 0em;
+    padding: 0.6em 0.1em;
  }
 
  input[name=email]{
-    max-width: 100%;
+    min-width: 85%;
     display: block;
     margin-bottom: 1em;
+    padding: 0.6em 0.1em;
+    flex: 1;
  }
 
  label[name=email]{
@@ -500,28 +504,47 @@ input[name=lastname]{
     margin-bottom: 1em;
  }
 
+ input, textarea{
+     border-radius: 1em;
+     transition: all 0.3s;
+     
+ }
+
 .second{
     display:flex;
     flex-direction: column;
     align-items: flex-start;
     position: relative;
-    bottom: 42px;
-    left: 0px;
+    bottom: 51px;
+    left: -2px;
+    padding: 0.1em 0.3em;
 } 
 
 label[name=textarea]{
     display:block;
-    margin:0.3em 0em 0.6em -0.8em; 
+}
+
+input[name=comentaris]{
+    border-radius: 2em;
+ }
+
+textarea:focus, input:focus, button:focus{
+    border:2px solid rgb(136, 50, 136); 
+    border-radius: 1.5em;   
+    outline: 0;
+    box-shadow: 1px 1px 15px 8px rgb(136, 50, 136);    
 }
 
 .btn{
     background-color:white; 
     font-weight: bold;
-    padding: 0.8em;
+    padding-bottom: 2em;
+    padding-top: 0.7em;
     display: block;
-    margin: 0.8em auto;
+    margin-top: 1.5em;
+    margin-left: 0.2em;
     color:black;
-    width: 30%;
+    width: 20%;
     height: 10%;
     border-radius: 2.8em;
 }
