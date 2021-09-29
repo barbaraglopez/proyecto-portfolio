@@ -26,7 +26,7 @@
                 <h1>Bárbara López</h1>
                 <p class="about-description">Programadora, pintora y viajera</p>
                 <div class="info-button"> 
-                    <a href="#"><p>LO QUE HAGO</p></a>
+                    <a href="#conocimientos"><p>LO QUE HAGO</p></a>
                 </div>
             </div>
                 <img src="img/foto2.svg" alt="imagen-presentation">
@@ -73,7 +73,7 @@
             </div>
              <div class="proyects-containers">
                 <div class="proyects-a">
-                    <div class="proyect-box"><img src="img/foto2.svg" alt="carilla portfolio"><a href="#">Portfolio</a></div>
+                    <div class="proyect-box"><img src="img/foto2.svg" alt="carilla portfolio"><p>Portfolio</p></div>
                     <div class="proyect-box"><img src="img/generador-de-memes.svg" alt="generador de memes"><p>Generador de Memes</p></div>     
                     <div class="proyect-box"><img src="img/match.svg" alt="match"><p>Match</p></div>
                 </div>
@@ -94,49 +94,83 @@
                     <p>
                         Para saber más de mi, podes acceder a cualquiera de estos links, allí vas a poder encontrar toda la info que necesitas de mi perfil. De lo contrario, dejame un mensaje!
                     </p>
-                    <div class="contact-list">
-                        <i class="fab fa-instagram"><a href="https://www.instagram.com/barby.loopez/" target="_blank" >barby.loopez</a></i>
-                        <i class="fab fa-linkedin"><a href="#" >barbara-gabriela-lopez</a></i>
-                        <i class="fab fa-github-alt"><a href="https://github.com/barbaraglopez" target="_blank">barbaraglopez</a></i>
-                        <i class="far fa-envelope"><a href="#" >barbaralopezbbbb</a></i>
-                    </div>
+                        <div class="incon-container-a">
+                            <div class="contact-list">
+                                <div class="icon-contact"><i class="fab fa-instagram link-contact"></i></div>
+                                <a href="https://www.instagram.com/barby.loopez/" target="_blank" class="contact-a">barby.loopez</a>       
+                            </div>
+                            <div class="contact-list">
+                                <div class="icon-contact"><i class="fab fa-linkedin link-contact"></i></div>
+                                <a href="https://www.instagram.com/barby.loopez/" target="_blank" class="contact-a">barbara-gabriela-lopez</a>       
+                            </div>
+                            <div class="contact-list">
+                                <div class="icon-contact"><i class="fab fa-github-alt link-contact" type="" href=""></i></div>
+                                <a href="https://github.com/barbaraglopez" target="_blank" class="contact-a">barbaraglopez</a>       
+                            </div>
+                            <div class="contact-list">
+                                <div class="icon-contact"><i class="far fa-envelope link-contact"></i></div>
+                                <a href="mailto:barbaralopezbbbb@gmail.com" target="_blank" class="contact-a">barbaralopezbbbb</a>       
+                            </div>
+                        </div>
                 </div>    
                 <div class="form-container">
                     <h2 class="contact-form">
                         Escribeme
                     </h2>
-                    <form>
-                        <label name="nombre" for= "name">Nombre <abbr title="required" aria-label="required">*</abbr></label>
-                            <input id= "name" type="text" name="nombre" placeholder="por ej Bárbara" size="40">
-                        <label name="lastname" for="lastname">Apellido <abbr title="required" aria-label="required">*</abbr></label>
-                            <input type="text" name="apellido" placeholder="por ej López" size="40">
+                <div class="prueba">    
+                    <div class="first">
+                        <form>
+                    <div class="form1"><label name="name" for= "name">Nombre <abbr title="required" aria-label="required">*</abbr></label>
+                            <input id="name" type="text" name="name" placeholder="por ej Bárbara" size="20"></div>
+                            <div class="form2"><label name="lastname" for="lastname">Apellido <abbr title="required" aria-label="required">*</abbr></label>
+                            <input id= lastname type="text" name="lastname" placeholder="por ej López" size="20"></div>
+                        </div>
+                    <div class="second">
                         <label name="email" for="email">Email <abbr title="required" aria-label="required">*</abbr></label>
                             <input id="email" type="email" name="email" placeholder="por ej barbaralopezbbbb@gmail" size="40">
                         <div class="textarea">
                             <label name="textarea" for="textarea">Mensaje</label>
-                                <textarea type name="comentarios" placeholder="deja un mensaje" cols="35" rows="5"></textarea>
+                            <textarea type name="comentarios" placeholder="deja un mensaje" cols="35" rows="5"></textarea>
                             <input type="submit" name="enviar" class="btn">
                         </div>
-                    </form>
+                        </form>
+                    </div>
+                </div>    
                 </div>
+            </div>    
         </section>
         </main>
         <footer>    
             <div class="footer">
                 <div class="section-container">
                     <ul>
-                        <li><a href="#presentacion">HOLA</a></li>
-                        <li><a href="#conocimientos">CONOCIMIENTOS</a></li>
-                        <li><a href="#proyectos">PROYECTOS</a></li>
-                        <li><a href="#contacto">CONTACTO</a></li>
+                        <li>    
+                            <a href="#presentacion">HOLA</a></li>
+                        <li>    
+                            <a href="#conocimientos">CONOCIMIENTOS</a>
+                        </li>   
+                        <li>    
+                            <a href="#proyectos">PROYECTOS</a>  
+                        </li>
+                        <li>
+                            <a href="#contacto">CONTACTO</a>
+                        </li>
                     </ul>           
                 </div>
                 <div class="social-contact">
-                    <i class="fab fa-instagram"><a href="#" class="footer-icon"></a></i>
-                    <i class="fab fa-linkedin"><a href="#" class="footer-icon"></a></i>
-                    <i class="fab fa-github-alt"><a href="#" class="footer-icon"></a></i>
-                    <i class="far fa-envelope"><a href="#" class="footer-icon"></a></i>
-                </div>
+                    <div class="icon-containers">
+                        <a href="https://www.instagram.com/barby.loopez/" target="_blank" class="footer-icon"><i class="fab fa-instagram"></i></a>
+                    </div> 
+                    <div class="icon-containers">
+                        <a href="https://www.linkedin.com/in/barbara-gabriela-lopez/" target="_blank" class="footer-icon"><i class="fab fa-linkedin"></i></a>
+                    </div>   
+                    <div class="icon-containers">
+                        <a href="https://github.com/barbaraglopez" target="_blank" class="footer-icon"><i class="fab fa-github-alt"></i></a>
+                   </div>   
+                   <div class="icon-containers">
+                        <a href="mailto:barbaralopezbbbb@gmail.com" target="_blank" class="footer-icon"><i class="far fa-envelope"></i></a>    
+                    </div>
+                </div>    
                 <div class="author">
                     <p>Hecho con 💓por Bárbara</p>
                 </div>
