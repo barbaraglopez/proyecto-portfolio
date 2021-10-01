@@ -279,7 +279,7 @@ blockquote{
     display:flex;
     justify-content: center;
     background-color:#D4D9DA;
-    padding: 5em 5em;
+    padding: 5em 0em;
     flex-wrap: wrap;
     box-shadow: inset 0 0 15px black;
 }   
@@ -310,7 +310,9 @@ blockquote{
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    flex: 1;
+    margin:0em auto;
+    padding:0em 1.8em 0em 2.2em;
+    width: 80%;
 }
 
 .proyect-box{
@@ -340,9 +342,7 @@ blockquote{
 
 .proyects-containers{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
+    justify-content: flex-end;
 }
 
 .proyect-box:hover{
