@@ -277,11 +277,9 @@ blockquote{
 /*//// Section 4 ////*/
 .proyects{
     display:flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
     background-color:#D4D9DA;
-    padding: 7.9em 6em;
+    padding: 5em 5em;
     flex-wrap: wrap;
     box-shadow: inset 0 0 15px black;
 }   
@@ -291,6 +289,7 @@ blockquote{
     flex-direction: column;
     align-items: center;
     margin-bottom: 0.5em;
+    margin:0em auto;
     }
 
 .proyects .my-proyects h2{    
@@ -306,19 +305,26 @@ blockquote{
     margin: 1.7em;
     font-size: 0.8em;
 }
+
+.proyects-a{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
 .proyect-box{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 17em;
-    max-height: 19em;
-    min-height: 15em;
-    margin: 0.7em;
-    border: 0.1em solid #dddfe5;
-    border-radius: 0.7em;
-    background-color: white;
+    min-height: 14em;
+    width: 30%;
+    margin:0.5em; 
+    border-radius: 0.4em;
+    background-color: #FFFF;
     transition: all 0.1s;
+    border: 0.1em solid white;
 }
 
 .proyect-box img{
@@ -336,6 +342,7 @@ blockquote{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .proyect-box:hover{
@@ -344,23 +351,7 @@ blockquote{
 
 }
 
-.proyects-a{
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;
-}
  
-.proyects-b{
-    display: flex; 
-    flex-wrap: wrap;
-    flex: 1;
-}
-
-.proyects-c{
-     display: flex;
-     flex-wrap: wrap;
-     flex: 1;
-}
 
 
 /*//// Section 5 ////*/
@@ -655,7 +646,7 @@ textarea:focus, input:focus, button:focus{
     }
 }
 
-@media(max-width:1076px){
+/* @media(max-width:1076px){
     .proyects{
         flex-direction: row;
         padding: 1em;
@@ -667,9 +658,9 @@ textarea:focus, input:focus, button:focus{
         width: 100%;
         padding: 0em 4em;
 
-    }
+    } */
 }
-
+/* 
 @media(max-width:1043px){
     .proyects-a{
         width: 100%;
@@ -682,7 +673,7 @@ textarea:focus, input:focus, button:focus{
     .proyects-containers{
         margin:1% auto
     }
-}
+} */
 
 @media(max-width:917px){
     .my-skills{
@@ -697,7 +688,7 @@ textarea:focus, input:focus, button:focus{
     .skill-box{
         flex-basis:40%;
     }
-
+/* 
     .proyects-containers{
         display: flex;
     }
@@ -723,8 +714,6 @@ textarea:focus, input:focus, button:focus{
     .my-proyects{
         display: flex;
         justify-content: center;
-        align-items: center;
-        margin:0em auto;
     }
 
      .proyects-containers{
@@ -757,8 +746,8 @@ textarea:focus, input:focus, button:focus{
     .section-container{
         margin: 0em;
 
-    }
-}
+    } */
+
 
 
 
