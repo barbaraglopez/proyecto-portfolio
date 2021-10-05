@@ -281,7 +281,6 @@ blockquote{
     background-color:#D4D9DA;
     padding: 5em 0em;
     flex-wrap: wrap;
-    box-shadow: inset 0 0 15px black;
 }   
 
 .proyects .my-proyects{
@@ -351,15 +350,12 @@ blockquote{
 
 }
 
- 
-
 
 /*//// Section 5 ////*/
 .contact-section{
     display: flex;
-    justify-content:space-evenly;
-    margin: 6em 6em;
-    background-color:black;
+    justify-content:center;
+    background-color:white;
     border: 2px solid white;
     color: white;
     padding: 1em;
@@ -368,7 +364,10 @@ blockquote{
 .contact-container{
     display: flex;
     flex-direction: column;
-    padding:0em 1em 0em 1em;
+    padding:0em 1em 0em 2em;
+    background-color: black;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .contact-container p{
@@ -423,6 +422,10 @@ blockquote{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    background-color: black;
+    padding-right: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 .div-dad{
     display: flex;
@@ -505,7 +508,7 @@ label[name=textarea]{
     display:block;
 }
 
-input[name=comentaris]{
+input[name=textarea]{
     border-radius: 2em;
  }
 
@@ -542,8 +545,8 @@ textarea:focus, input:focus, button:focus{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 15em;
-    min-width: 57em;
+    padding: 4.5em 0em;
+    width: 100%;
 }
 
 .section-container ul{
@@ -646,7 +649,10 @@ textarea:focus, input:focus, button:focus{
     }
 }
 
-/* @media(max-width:1076px){
+ @media(max-width:1076px){
+    main .about-introduction{
+        padding-top:12em;
+    } 
     .proyects{
         flex-direction: row;
         padding: 1em;
@@ -657,10 +663,9 @@ textarea:focus, input:focus, button:focus{
     .proyects-a{
         width: 100%;
         padding: 0em 4em;
-
-    } */
+    } 
 }
-/* 
+
 @media(max-width:1043px){
     .proyects-a{
         width: 100%;
@@ -673,7 +678,7 @@ textarea:focus, input:focus, button:focus{
     .proyects-containers{
         margin:1% auto
     }
-} */
+}
 
 @media(max-width:917px){
     .my-skills{
@@ -688,12 +693,9 @@ textarea:focus, input:focus, button:focus{
     .skill-box{
         flex-basis:40%;
     }
-/* 
+
     .proyects-containers{
         display: flex;
-    }
-
-    .proyects-a{
     }
 
     .proyect-box{
@@ -711,23 +713,60 @@ textarea:focus, input:focus, button:focus{
 }
 
 @media(max-width:900px){
-    .my-proyects{
+   .about-introduction img{
+        width: 55%;
+    }
+
+    .my-skills{
+        padding:5em 0.5em ;
+    }
+
+    .skills-a{
+        width: 80%;
+    }
+
+    blockquote {
+        font-size: 1.5em;
+        padding:0em 2em 0em 2em;
+    }
+
+    .extra-info h2{
+        font-size: 2.5em;
+        margin-bottom: -0.3em;
+    }
+
+    .extra-info-bottom h2{
+        font-size: 2.5em;
+    }
+
+    .proyects{
+        padding-top:5em;
+        padding-bottom: 5em;
+    }
+
+    .proyects-a{
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
+        padding: 0em;
+        padding-left: 2.5em;
     }
 
      .proyects-containers{
        width: 100%;
-       margin:0em auto}
     }
 
     .proyect-box{
-        flex-basis: 50%;
+        flex-basis: 45%;
     }
 
     .contact-section{
         display: flex;
         flex-direction: column;
+    }
+
+    .form-container{
+        margin-top: 0em;
+        padding-left: 1.9em;
     }
 
     .incon-container-a{
@@ -746,8 +785,169 @@ textarea:focus, input:focus, button:focus{
     .section-container{
         margin: 0em;
 
-    } */
+    } 
+}
 
+@media(max-width:720px){
+   .about-introduction{
+        padding: 1em 0em 0em 0em;
+    }
+}
 
+@media(max-width:705px){
+    .about-introduction{
+        padding: 2em 0em 0em 0em;
+    }
 
+    .introduction-banner{}
+
+    .about-introduction img{
+        width: 65%;
+        margin-top: 5em;
+        padding-bottom: 4em;
+}
+}
+
+@media(max-width:635px){
+    .about-introduction{
+        padding: 1em 0em 0em 0em;}
+
+        .about-introduction img{
+            width: 75%;
+    }
+}
+
+ @media(max-width:625px){
+    main .about-introduction{
+        padding: 8em 1em 8em 1em;
+    }
+
+    .introduction-banner{
+        margin-bottom: 2em;
+        padding-bottom: 1em;
+    }
+
+    .about-introduction img{
+        width: 50%;
+    }
+}     
+
+@media(max-width:600px){
+   .skills-a{
+        width: 50%;
+    } 
+   .skill-box{
+        flex-basis: 100%;
+    }
+}
+
+@media(max-width:570px){
+   .skills-a{
+        width: 100%;
+    }
+
+    .skill-box{
+        flex-basis: 40%;
+    }
+}
+
+@media(max-width:555px){
+    .proyects-a{
+      padding-left: 0.1em;
+    }
+
+     .proyects-containers{
+       width: 95%;
+    }
+
+    .proyect-box{
+        flex-basis: 100%;
+        height: 20%;
+    }
+}
+
+@media(max-width:505px){
+    .about-introduction{
+        padding: 2em 0em;
+    }
+    .incon-container-a{
+        flex-direction: column;
+    }
+
+    main{
+        background-color:#D4D9DA;
+    }
+
+    .contact-section{
+        margin-top:900px;
+    }
+
+   .proyects-containers{
+       margin-bottom: 2em;
+   }
+
+    form .form1{
+       display: 
+   }
+
+    .form-container{
+       padding: 1em 1em 4em 1em;
+   }
+
+   .form-container .contact-form{
+       padding: 0em 0em 2em 0em;
+
+   } 
+ 
+    form input[name=name]{
+        position: relative;
+        bottom: 190px;
+    } 
+
+     form label[name=name]{
+        position: relative;
+        bottom: 191px;
+    }
+
+    input[name=lastname]{
+       position: absolute;
+       bottom:60px;
+       right:180px;
+    }
+
+    label[name=lastname]{
+        position: absolute;
+        bottom:78px;
+        right: 290px;
+     }
+ 
+    input[name=email]{
+        position: absolute;
+        bottom:68px;
+        left: 0px;
+    }
+
+    label[name=email]{
+        position: absolute;
+        bottom:115px;
+        left: 0px;
+    }
+
+    textarea{
+        position: absolute;
+        top:27px;
+        left: 0px;
+} 
+    input[name=enviar]{
+        position: relative;
+        top:85px;
+        left: 0px;
+}
+
+    .btn{
+        width: 90%;
+    }
+}
+
+@media(max-width:)
 
