@@ -864,6 +864,18 @@ textarea:focus, input:focus, button:focus{
         flex-basis: 100%;
         height: 20%;
     }
+
+    main{
+        background-color:#D4D9DA;
+    }
+
+    .contact-section{
+        margin-top:900px;
+    }
+
+   .proyects-containers{
+       margin-bottom: 2em;
+   }
 }
 
 @media(max-width:505px){
