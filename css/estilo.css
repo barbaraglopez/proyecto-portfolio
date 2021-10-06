@@ -605,8 +605,6 @@ textarea:focus, input:focus, button:focus{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-
     }
 
     .about-introduction{
@@ -614,34 +612,54 @@ textarea:focus, input:focus, button:focus{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        max-width: 69em;
         margin: 0em auto;
-        padding: 0em;
+        padding:0em;
     }
 
-    .about-introduction p{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        flex-basis: 100%;
+    .introduction-banner h1{
+        font-size: 7em;
     }
 
-    h1{
-        font-size: 28em;
+    .introduction-banner .about-intro{
+        font-size: 2em;
     }
+
+    .introduction-banner .about-description{
+        font-size: 1.7em;
+    }
+
+    .info-button{
+        width: 60%;
+        margin:0em 1em 10em 1em;
+    }
+
+    .about-introduction .info-button a p{
+        font-size: 2em;
+    }
+
+    .about-introduction img{
+        width: 70%;
+    }
+
 
     .introduction-banner, .about-intro, .about-description ,.info-button{
         display: flex;
         flex-direction: column;
         flex-basis: 100%;
         align-items: center;
-        
     }
 
     .info-button{
         width: 60%;
-        height: 30%;
-        margin:0em 1em 3em 1em;
+        margin:0em 1em 10em 1em;
+    }
+
+    .about-introduction .info-button a p{
+        font-size: 2em;
+    }
+
+    .about-introduction img{
+        width: 70%;
     }
 
     .footer{
@@ -788,6 +806,18 @@ textarea:focus, input:focus, button:focus{
     } 
 }
 
+@media(max-width:865px){
+  main .about-introduction{
+      padding:8em 0em 12em 0em;
+  }
+
+  .about-introduction img{
+      width: 70%;
+}
+
+}
+
+
 @media(max-width:720px){
    .about-introduction{
         padding: 1em 0em 0em 0em;
@@ -799,27 +829,26 @@ textarea:focus, input:focus, button:focus{
         padding: 2em 0em 0em 0em;
     }
 
-    .introduction-banner{}
-
     .about-introduction img{
-        width: 65%;
+        width: 75%;
         margin-top: 5em;
         padding-bottom: 4em;
 }
 }
+
 
 @media(max-width:635px){
     .about-introduction{
         padding: 1em 0em 0em 0em;}
 
         .about-introduction img{
-            width: 75%;
+            width: 80%;
     }
 }
 
  @media(max-width:625px){
     main .about-introduction{
-        padding: 8em 1em 8em 1em;
+        padding: 8em 0em 8em 0em;
     }
 
     .introduction-banner{
@@ -828,11 +857,15 @@ textarea:focus, input:focus, button:focus{
     }
 
     .about-introduction img{
-        width: 50%;
+        width: 80%;
     }
 }     
 
 @media(max-width:600px){
+    .introduction-banner h1{
+        font-size: 6em;
+    }
+
    .skills-a{
         width: 50%;
     } 
@@ -852,6 +885,14 @@ textarea:focus, input:focus, button:focus{
 }
 
 @media(max-width:555px){
+    main .about-introduction{
+        padding-top:13em;
+    }
+
+    .introduction-banner h1{
+        font-size: 5em;
+    }
+
     .proyects-a{
       padding-left: 0.1em;
     }
@@ -896,10 +937,6 @@ textarea:focus, input:focus, button:focus{
 
    .proyects-containers{
        margin-bottom: 2em;
-   }
-
-    form .form1{
-       display: 
    }
 
     .form-container{
@@ -961,5 +998,53 @@ textarea:focus, input:focus, button:focus{
     }
 }
 
-@media(max-width:)
+@media(max-width:445px){
+    .introduction-banner{
+        margin:0em 0em 2em 0em;
+    }
 
+    .about-introduction h1{
+        font-size: 4em;
+    }
+    .about-introduction .info-button{
+        width: 60%;
+        margin:0em 1em 10em 1em;
+        padding:1em;
+    }
+
+    .about-introduction .info-button a p{
+        font-size: 2em;
+    }
+
+    .introduction-banner .about-description{
+         margin: 0em 0.5em 0em 0.5em; 
+         text-align: center;
+    }
+
+    .about-introduction img{
+        width: 90%;
+    }  
+} 
+
+@media(max-width:390px){
+    .quote h2{
+        font-size: 1.2em;
+    }
+
+}
+
+@media(max-width:330px){
+    .quote h2{
+        font-size: 1.2em;
+    }
+
+    blockquote p{
+        font-size: 0.7em;
+        padding: 0em 0.9em ;
+    }
+
+    .quote .extra-info-bottom h2{
+        margin: 0em;
+
+}
+}
