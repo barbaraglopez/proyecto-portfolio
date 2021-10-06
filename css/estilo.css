@@ -851,6 +851,10 @@ textarea:focus, input:focus, button:focus{
         padding: 8em 0em 8em 0em;
     }
 
+    .about-introduction h1{
+        font-size: 6.7em;
+    }
+
     .introduction-banner{
         margin-bottom: 2em;
         padding-bottom: 1em;
