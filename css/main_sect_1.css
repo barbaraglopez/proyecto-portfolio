@@ -9,10 +9,7 @@ main .about-introduction{
     background-color: black;
     flex-wrap: wrap;
     align-items: center;
-    /* box-shadow :inset 0 0 15px white; */
-    -webkit-box-shadow: inset 0 0 15px black;
-    -moz-box-shadow: inset 0 0 15px black;
-     box-shadow: inset 0 0 15px black;
+    box-shadow:inset -10px 0px 7px 0px rgba(143, 143, 143, 0.911); 
 }
 
 .introduction-banner {
@@ -20,6 +17,7 @@ main .about-introduction{
     flex-direction: column;
     flex-wrap: wrap;
     margin-left: 3em;
+    box-shadow:inset -7px 0px 5px 0px rgba(0,0,0,0.4);
 }
 
 .introduction-banner .about-intro{

@@ -3,4 +3,18 @@
         font-size: 1.2em;
     }
 
+    
+    .skills-title h2{
+        text-align: center;
+    }
+
+    .div.footer{
+        padding: 0em;
+        width: 50%;
+    }
+
+    .social-contact{
+        margin: 0;
+    }
+    
 }

@@ -22,6 +22,8 @@
 
     main{
         background-color:#D4D9DA;
+        box-shadow:inset -10px 0px 7px 0px rgba(128, 124, 124, 0.911); 
+
     }
 
     .contact-section{

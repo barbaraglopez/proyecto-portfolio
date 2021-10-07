@@ -7,7 +7,7 @@
     background-color:#D4D9DA;
     padding: 7.9em 6em;
     flex-wrap: wrap;
-    box-shadow: inset 0 0 15px black;
+    box-shadow:inset -10px 0px 7px 0px rgba(128, 124, 124, 0.911); 
 }
 
 .my-skills .skills-title{

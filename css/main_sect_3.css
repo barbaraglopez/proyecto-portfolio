@@ -9,6 +9,8 @@
     color:white;
     height: 32em;
     flex-wrap: wrap;
+    box-shadow:inset -10px 0px 7px 0px rgba(163, 163, 163, 0.911); 
+
 }
 
 .extra-info .quote{

@@ -5,6 +5,8 @@
     background-color:#D4D9DA;
     padding: 5em 0em;
     flex-wrap: wrap;
+    box-shadow:inset -10px 0px 7px 0px rgba(128, 124, 124, 0.911); 
+
 }   
 
 .proyects .my-proyects{
