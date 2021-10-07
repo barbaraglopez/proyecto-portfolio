@@ -1,4 +1,4 @@
-# Mi proyecyo Bárbara Lápez
+# Mi portfolio Bárbara Lápez
 *Mi primer proyecto en Ada, espero les guste!*
 
 ![info](img/section1.png)
