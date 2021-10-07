@@ -1,4 +1,4 @@
 # proyecto-portfolio
 Mi primer proyecto en 
 
-![info](./
+![info](./img/section1.png)
