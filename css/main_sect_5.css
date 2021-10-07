@@ -45,6 +45,10 @@
     align-items: center;
 }
 
+.contact-list:active i a{
+    box-shadow: 1px 1px 15px 15px rgb(136, 50, 136);    
+}
+
 .icon-contact i{
     border-radius: 1em;
     border:0.1em solid black;
@@ -158,8 +162,8 @@ label[name=textarea]{
 }
 
 textarea{
-    max-width: 80%;
-    max-height: 15em;
+    max-width: 90%;
+    height:50%;
 }
 
 input[name=textarea]{

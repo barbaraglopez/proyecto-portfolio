@@ -24,6 +24,8 @@ nav{
     box-shadow: 0.1em 0.2em 1.7em 0.4em rgba(250, 242, 242, 0.884);
     background-color:#424949; 
     height: 5em;
+    box-shadow:inset -10px 0px 7px 0px rgba(221, 196, 196, 0.911); 
+
 }
 
 nav ul{

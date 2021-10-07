@@ -16,5 +16,34 @@
     .social-contact{
         margin: 0;
     }
+
+    .proyect-box{
+        margin:1em 0em;
+    }
+
+    .skills-a{
+        margin: 1em 0em;
+    }
+
+    h2.contact-form{
+        margin:1em 0em;
+        padding: 0em;
+    }
+
+    .div.footer{
+        width: 50%;
+    }
     
+    .about-introduction img{
+        width: 70%;
+    }
+
+    .about-introduction .about-intro p{
+        margin:0 auto;
+    }
+
+    .about-introduction h1{
+        font-size: 5em;
+        margin: 0 auto;
+    }
 }

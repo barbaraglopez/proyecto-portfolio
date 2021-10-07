@@ -5,6 +5,7 @@
 
     .about-introduction h1{
         font-size: 4em;
+        margin: 0 auto;
     }
     .about-introduction .info-button{
         width: 60%;
