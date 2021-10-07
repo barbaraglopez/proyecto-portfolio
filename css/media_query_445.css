@@ -1,0 +1,27 @@
+@media(max-width:445px){
+    .introduction-banner{
+        margin:0em 0em 2em 0em;
+    }
+
+    .about-introduction h1{
+        font-size: 4em;
+    }
+    .about-introduction .info-button{
+        width: 60%;
+        margin:0em 1em 10em 1em;
+        padding:1em;
+    }
+
+    .about-introduction .info-button a p{
+        font-size: 2em;
+    }
+
+    .introduction-banner .about-description{
+         margin: 0em 0.5em 0em 0.5em; 
+         text-align: center;
+    }
+
+    .about-introduction img{
+        width: 90%;
+    }  
+} 

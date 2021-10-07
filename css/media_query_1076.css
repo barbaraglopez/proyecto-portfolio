@@ -1,0 +1,16 @@
+@media(max-width:1076px){
+    main .about-introduction{
+        padding-top:12em;
+    } 
+    .proyects{
+        flex-direction: row;
+        padding: 1em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .proyects-a{
+        width: 100%;
+        padding: 0em 4em;
+    } 
+}

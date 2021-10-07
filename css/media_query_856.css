@@ -1,0 +1,9 @@
+@media(max-width:865px){
+    main .about-introduction{
+        padding:8em 0em 12em 0em;
+    }
+  
+    .about-introduction img{
+        width: 70%;
+    }
+}

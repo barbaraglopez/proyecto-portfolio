@@ -1,0 +1,75 @@
+@media(max-width:900px){
+    .about-introduction img{
+         width: 55%;
+     }
+ 
+     .my-skills{
+         padding:5em 0.5em ;
+     }
+ 
+     .skills-a{
+         width: 80%;
+     }
+ 
+     blockquote {
+         font-size: 1.5em;
+         padding:0em 2em 0em 2em;
+     }
+ 
+     .extra-info h2{
+         font-size: 2.5em;
+         margin-bottom: -0.3em;
+     }
+ 
+     .extra-info-bottom h2{
+         font-size: 2.5em;
+     }
+ 
+     .proyects{
+         padding-top:5em;
+         padding-bottom: 5em;
+     }
+ 
+     .proyects-a{
+         display: flex;
+         justify-content: flex-start;
+         padding: 0em;
+         padding-left: 2.5em;
+     }
+ 
+      .proyects-containers{
+        width: 100%;
+     }
+ 
+     .proyect-box{
+         flex-basis: 45%;
+     }
+ 
+     .contact-section{
+         display: flex;
+         flex-direction: column;
+     }
+ 
+     .form-container{
+         margin-top: 0em;
+         padding-left: 1.9em;
+     }
+ 
+     .incon-container-a{
+         display: flex;
+         justify-content: flex-start;
+     }
+ 
+     .icon-a{
+         margin-right: 1em;
+     }
+ 
+     .btn{
+         height: 1em;
+     }
+ 
+     .section-container{
+         margin: 0em;
+ 
+     } 
+ }

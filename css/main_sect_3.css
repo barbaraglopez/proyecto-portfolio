@@ -1,0 +1,42 @@
+/*///// Sección3 /////*/
+.extra-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #777777;
+    color:white;
+    height: 32em;
+    flex-wrap: wrap;
+}
+
+.extra-info .quote{
+    font-size: 4em;
+}
+
+blockquote{
+    max-width: 30em;
+}
+
+.extra-info-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    max-width: 15em;
+    max-height: 15em;
+    margin-bottom: 1.5em;
+}
+
+.extra-info blockquote p{
+    text-align: center;
+}
+
+.extra-info .extra-info-bottom h2{
+    font-size: 2em;
+    font-weight: 900;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-family:'Lobster', cursive;
+}

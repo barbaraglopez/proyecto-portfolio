@@ -1,0 +1,76 @@
+/*//// Section 4 ////*/
+.proyects{
+    display:flex;
+    justify-content: center;
+    background-color:#D4D9DA;
+    padding: 5em 0em;
+    flex-wrap: wrap;
+}   
+
+.proyects .my-proyects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.5em;
+    margin:0em auto;
+    }
+
+.proyects .my-proyects h2{    
+    font-size: 4.9em;
+    font-weight:900; 
+    font-family: 'Allison', cursive;
+    justify-content: center;
+}
+
+.proyects .my-proyects p {
+    text-align: center;
+    max-width: 20.5em;
+    margin: 1.7em;
+    font-size: 0.8em;
+}
+
+.proyects-a{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:0em auto;
+    padding:0em 1.8em 0em 2.2em;
+    width: 80%;
+}
+
+.proyect-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 14em;
+    width: 30%;
+    margin:0.5em; 
+    border-radius: 0.4em;
+    background-color: #FFFF;
+    transition: all 0.1s;
+    border: 0.1em solid white;
+}
+
+.proyect-box img{
+    width: 80%;
+    height: 70%;
+}
+
+.proyect-box p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 1em;
+}
+
+.proyects-containers{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.proyect-box:hover{
+    border: 0.1em solid black;
+    color:rgb(136, 50, 136);
+
+}

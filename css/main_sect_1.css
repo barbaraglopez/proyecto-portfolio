@@ -1,0 +1,82 @@
+/*///// Main /////*/
+/*///// Sección 1 /////*/
+main .about-introduction{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8em 8.12em 11em 8.12em;
+    width: 100%;
+    background-color: black;
+    flex-wrap: wrap;
+    align-items: center;
+    /* box-shadow :inset 0 0 15px white; */
+    -webkit-box-shadow: inset 0 0 15px black;
+    -moz-box-shadow: inset 0 0 15px black;
+     box-shadow: inset 0 0 15px black;
+}
+
+.introduction-banner {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 3em;
+}
+
+.introduction-banner .about-intro{
+    font-weight:800;
+    font-size: 1.2em;
+    margin-left: -1.9em;
+    margin-top: 1.25;
+    color: #B3B6B7;
+}
+
+.introduction-banner h1{
+    font-size: 4em;
+    font-weight: 900;
+    font-family:'Lobster', cursive; 
+    color:#A3B3B5;
+    margin-left: -0.7em;
+    margin-top: 0.18em;
+    text-align: center;
+}
+
+.introduction-banner .about-description{
+    font-size: 1em;
+    font-weight: 400;
+    padding-top: 1.3em;
+    padding-bottom: 2.2em;
+    color: #B3B6B7;
+    margin-left: -2.5em;
+}
+
+.introduction-banner .info-button{
+    display: flex;
+    width: 50%;
+    color: #FFFF;
+    font-size: 0.7em;
+    font-weight: 450;
+    background-color:#494e4e;
+    border-radius: 07em;
+    padding: 0.9em 0.8em;
+    justify-content: center;
+    margin-left: -3.6em;
+    justify-content: center;
+}
+
+.info-button:hover{
+    background-color: thistle;
+}
+
+.info-button:hover p{
+    color: black;
+    font-weight: bold;
+}
+
+.about-introduction img{
+    width: 50%;
+    margin-top: 0.2em;
+    margin-left: 0.7em;
+    justify-content: center;
+    align-items: center;
+
+}

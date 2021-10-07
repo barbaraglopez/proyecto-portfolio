@@ -1,0 +1,78 @@
+@media(max-width:505px){
+    .about-introduction{
+        padding: 2em 0em;
+    }
+    .incon-container-a{
+        flex-direction: column;
+    }
+
+    main{
+        background-color:#D4D9DA;
+    }
+
+    .contact-section{
+        margin-top:900px;
+    }
+
+   .proyects-containers{
+       margin-bottom: 2em;
+   }
+
+    .form-container{
+       padding: 1em 1em 4em 1em;
+   }
+
+   .form-container .contact-form{
+       padding: 0em 0em 2em 0em;
+
+   } 
+ 
+    form input[name=name]{
+        position: relative;
+        bottom: 190px;
+    } 
+
+     form label[name=name]{
+        position: relative;
+        bottom: 191px;
+    }
+
+    input[name=lastname]{
+       position: absolute;
+       bottom:60px;
+       right:180px;
+    }
+
+    label[name=lastname]{
+        position: absolute;
+        bottom:78px;
+        right: 290px;
+     }
+ 
+    input[name=email]{
+        position: absolute;
+        bottom:68px;
+        left: 0px;
+    }
+
+    label[name=email]{
+        position: absolute;
+        bottom:115px;
+        left: 0px;
+    }
+
+    textarea{
+        position: absolute;
+        top:27px;
+        left: 0px;
+} 
+    input[name=enviar]{
+        position: relative;
+        top:85px;
+        left: 0px;
+}
+
+    .btn{
+        width: 90%;
+    }
+}

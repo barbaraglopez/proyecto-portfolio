@@ -1,0 +1,34 @@
+@media(max-width:555px){
+    main .about-introduction{
+        padding-top:13em;
+    }
+
+    .introduction-banner h1{
+        font-size: 5em;
+    }
+
+    .proyects-a{
+      padding-left: 0.1em;
+    }
+
+     .proyects-containers{
+       width: 95%;
+    }
+
+    .proyect-box{
+        flex-basis: 100%;
+        height: 20%;
+    }
+
+    main{
+        background-color:#D4D9DA;
+    }
+
+    .contact-section{
+        margin-top:900px;
+    }
+
+   .proyects-containers{
+       margin-bottom: 2em;
+   }
+}

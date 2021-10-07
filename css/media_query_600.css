@@ -1,0 +1,12 @@
+@media(max-width:600px){
+    .introduction-banner h1{
+        font-size: 6em;
+    }
+
+   .skills-a{
+        width: 50%;
+    } 
+   .skill-box{
+        flex-basis: 100%;
+    }
+}

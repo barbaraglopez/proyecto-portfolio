@@ -1,0 +1,186 @@
+/*//// Section 5 ////*/
+.contact-section{
+    display: flex;
+    justify-content:center;
+    background-color:white;
+    border: 2px solid white;
+    color: white;
+    padding: 1em;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    padding:0em 1em 0em 2em;
+    background-color: black;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.contact-container p{
+    font-size: 0.7em;
+    max-width: 25em;
+    padding-right: 60px;
+
+}
+
+.contact-form{
+    font-size: 5em;
+    font-weight:900; 
+    margin-top: 0.1em;
+    margin-bottom: 0.3em;
+    font-family:'Allison', cursive;
+}
+
+.incon-container-a{
+    padding: 1em 0.2em;
+}
+
+.contact-list{
+    display: flex;
+    transition: all 0.2s;
+    padding: 0.9em 0.4em;
+    align-items: center;
+}
+
+.icon-contact i{
+    border-radius: 1em;
+    border:0.1em solid black;
+    font-size: 0.9em;
+    padding: 0.3em 0.4em 0.3em 0.4em;
+}
+
+.contact-a{
+    transition: all 0.2s;
+}
+.contact-list:hover i{
+    border: 0.1em solid rgb(136, 50, 136) ; 
+    border-radius: 1em;
+    padding: 0.3em 0.4em 0.3em 0.4em;
+    color:black;
+    background-color:rgb(136, 50, 136);
+}
+
+.contact-list:hover a{
+    color:rgb(136, 50, 136);
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: black;
+    padding-right: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.div-dad{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.first{
+    display: flex;
+}
+
+.first{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;   
+}
+
+.form1{
+    display: flex;
+    flex-direction: column;
+    max-width: 60em;
+    flex: 1;
+}
+
+.form2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 60px;
+    left: 180px;
+    max-width: 50em;
+    flex: 1;
+}
+
+label{
+    margin-bottom: 0.5em;
+}
+
+input[name=name]{
+    width: 100%;
+    display: inline;
+    padding: 0.5em 0.1em;
+ }
+
+input[name=lastname]{
+    width: 100%;
+    display: inline;
+    padding: 0.6em 0.1em;
+ }
+
+ input[name=email]{
+    min-width: 100%;
+    display: block;
+    margin-bottom: 1em;
+    padding: 0.6em 0.1em;
+    flex: 1;
+ }
+
+ label[name=email]{
+    display: block;
+    margin-bottom: 0.5em;
+ }
+
+ input, textarea{
+     border-radius: 1em;
+     transition: all 0.3s;    
+ }
+
+.second{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    bottom: 51px;
+    left: -2px;
+    padding: 0.1em 0.3em;
+} 
+
+label[name=textarea]{
+    display:block;
+}
+
+input[name=textarea]{
+    border-radius: 2em;
+ }
+
+textarea:focus, input:focus, button:focus{
+    border:2px solid rgb(136, 50, 136); 
+    border-radius: 1.5em;   
+    outline: 0 none;
+    box-shadow: 1px 1px 15px 7px rgb(136, 50, 136);    
+}
+
+.btn{
+    background-color:white; 
+    font-weight: bold;
+    padding-bottom: 2em;
+    padding-top: 0.7em;
+    display: block;
+    margin-top: 1em;
+    margin-left: 0.2em;
+    color:black;
+    width: 20%;
+    height: 10%;
+    border-radius: 2.8em;
+}
+
+.btn:hover{
+  background-color:rgb(190, 34, 190); 
+  color:white;
+}

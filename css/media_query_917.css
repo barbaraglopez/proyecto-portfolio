@@ -1,0 +1,31 @@
+@media(max-width:917px){
+    .my-skills{
+        display: flex;
+    }
+
+    .skills-a{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .skill-box{
+        flex-basis:40%;
+    }
+
+    .proyects-containers{
+        display: flex;
+    }
+
+    .proyect-box{
+        flex-basis: 30%;
+    }
+
+    .footer .section-container{
+        max-width: 400em;
+    }
+
+    .about-introduction{
+        padding-top: 5em;
+    }
+
+}

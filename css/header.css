@@ -1,0 +1,57 @@
+/*///// Header /////*/
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    -webkit-box-shadow: inset 0 0 15px white;
+    -moz-box-shadow: inset 0 0 15px white;
+    box-shadow: inset 0 0 15px white;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 0.9em;
+    margin: 0em 0.9em;
+    font-weight: 300;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 0.1em 0.2em 1.7em 0.4em rgba(250, 242, 242, 0.884);
+    background-color:#424949; 
+    height: 5em;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    padding: 1.25em 5em;
+}
+
+.nav-option:hover{
+    color: thistle;
+    
+}
+
+.contact-button{
+    color: #FFFF;
+    box-shadow: black;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    background-color: #666666;
+    
+}
+
+.contact-button:hover{
+    background-color: thistle;
+    color: black;
+}
+
+a:hover{
+    color: rgb(190, 34, 190);
+    }

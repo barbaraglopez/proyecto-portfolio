@@ -1,0 +1,71 @@
+/*////media query////*/
+@media(max-width:1090px){
+    nav{
+        display: none;
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-introduction{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0em auto;
+        padding:0em;
+    }
+
+    .introduction-banner h1{
+        font-size: 7em;
+    }
+
+    .introduction-banner .about-intro{
+        font-size: 2em;
+    }
+
+    .introduction-banner .about-description{
+        font-size: 1.7em;
+    }
+
+    .info-button{
+        width: 60%;
+        margin:0em 1em 10em 1em;
+    }
+
+    .about-introduction .info-button a p{
+        font-size: 2em;
+    }
+
+    .about-introduction img{
+        width: 70%;
+    }
+
+
+    .introduction-banner, .about-intro, .about-description ,.info-button{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        align-items: center;
+    }
+
+    .info-button{
+        width: 60%;
+        margin:0em 1em 10em 1em;
+    }
+
+    .about-introduction .info-button a p{
+        font-size: 2em;
+    }
+
+    .about-introduction img{
+        width: 70%;
+    }
+
+    .footer{
+        min-width:100%;
+    }
+}

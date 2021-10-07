@@ -1,0 +1,11 @@
+@media(max-width:705px){
+    .about-introduction{
+        padding: 2em 0em 0em 0em;
+    }
+
+    .about-introduction img{
+        width: 75%;
+        margin-top: 5em;
+        padding-bottom: 4em;
+    }
+}

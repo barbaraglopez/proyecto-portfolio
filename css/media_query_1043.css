@@ -1,0 +1,13 @@
+@media(max-width:1043px){
+    .proyects-a{
+        width: 100%;
+    }
+
+    .proyect-box{
+        flex-basis: 30%;
+    }
+
+    .proyects-containers{
+        margin:1% auto
+    }
+}
