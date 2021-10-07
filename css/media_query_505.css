@@ -46,7 +46,7 @@
     label[name=lastname]{
         position: absolute;
         bottom:78px;
-        right: 290px;
+        right: 280px;
      }
  
     input[name=email]{
@@ -58,7 +58,7 @@
     label[name=email]{
         position: absolute;
         bottom:115px;
-        left: 0px;
+        left: 5px;
     }
 
     textarea{
