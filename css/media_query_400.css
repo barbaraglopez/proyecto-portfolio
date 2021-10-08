@@ -1,13 +1,8 @@
-@media(max-width:390px){
+@media(max-width:400px){
     .quote h2{
         font-size: 1.2em;
     }
-
     
-    .skills-title h2{
-        text-align: center;
-    }
-
     .div.footer{
         padding: 0em;
         width: 50%;
@@ -37,7 +32,7 @@
     .about-introduction img{
         width: 70%;
     }
-
+/* 
     .about-introduction .about-intro p{
         margin:0 auto;
     }
@@ -45,5 +40,9 @@
     .about-introduction h1{
         font-size: 5em;
         margin: 0 auto;
+    } */
+
+    h2.contact-form {
+    padding-bottom: 0.1em;
     }
 }

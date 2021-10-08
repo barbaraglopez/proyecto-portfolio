@@ -1,14 +1,10 @@
 @media(max-width:555px){
-    main .about-introduction{
-        padding-top:13em;
+    .about-introduction h1{
+        font-size: 4.2em;
     }
 
-    .introduction-banner h1{
-        font-size: 5em;
-    }
-
-    .proyects-a{
-      padding-left: 0.1em;
+    .about-introduction .about-description{
+        font-size: 1.4em;
     }
 
      .proyects-containers{
@@ -20,17 +16,21 @@
         height: 20%;
     }
 
+    .proyects-a{
+        padding-right:0.5em;
+        padding-left: 0.5em;
+    }
+
     main{
         background-color:#D4D9DA;
         box-shadow:inset -10px 0px 7px 0px rgba(128, 124, 124, 0.911); 
-
     }
 
     .contact-section{
-        margin-top:900px;
+        margin-top:950px;
     }
 
    .proyects-containers{
        margin-bottom: 2em;
-   }
+   } 
 }

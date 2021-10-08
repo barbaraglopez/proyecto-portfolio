@@ -45,10 +45,6 @@
     align-items: center;
 }
 
-.contact-list:active i a{
-    box-shadow: 1px 1px 15px 15px rgb(136, 50, 136);    
-}
-
 .icon-contact i{
     border-radius: 1em;
     border:0.1em solid black;
@@ -59,6 +55,12 @@
 .contact-a{
     transition: all 0.2s;
 }
+
+.contact-list:focus .icon-contact{
+    box-shadow: 1px 1px 15px 25px rgb(243, 233, 243);    
+
+}
+
 .contact-list:hover i{
     border: 0.1em solid rgb(136, 50, 136) ; 
     border-radius: 1em;

@@ -1,10 +1,31 @@
 @media(max-width:445px){
     .introduction-banner{
-        margin:0em 0em 2em 0em;
+        margin: 0 auto;
+    }
+
+    .about-introduction img{
+        width: 45%;
     }
 
     .about-introduction h1{
-        font-size: 4em;
+        font-size: 3.2em;
+        padding:0em;
+        margin: 0em;
+    }
+
+    .my-skills .skills-title h2{
+        padding:0em 1em;
+        text-align: center;
+    }
+
+    .proyects .my-proyects h2{
+        padding:0em 1em;
+        text-align: center;
+    }
+
+    .about-introduction .about-description{
+        text-align: center;
+        font-size: 1em;
         margin: 0 auto;
     }
     .about-introduction .info-button{
@@ -14,7 +35,7 @@
     }
 
     .about-introduction .info-button a p{
-        font-size: 2em;
+        font-size: 1.3em;
     }
 
     .introduction-banner .about-description{
