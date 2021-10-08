@@ -33,4 +33,8 @@
    .proyects-containers{
        margin-bottom: 2em;
    } 
+
+   .skills-containers{
+       margin: 0em 1em;
+   }
 }
