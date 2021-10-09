@@ -110,7 +110,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    bottom: 64px;
+    bottom: 63px;
     left: 165px;
     max-width: 50em;
     flex: 1;
