@@ -1,0 +1,11 @@
+@media(max-width:380px){
+    
+    .about-introduction h1{
+        font-size:2px;
+        margin: 0 auto;
+    } 
+
+    .footer{
+        width: 50%;
+    }
+}

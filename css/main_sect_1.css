@@ -16,7 +16,7 @@ main .about-introduction{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-left: 3em;
+    margin-left: 1em;
     box-shadow:inset -7px 0px 5px 0px rgba(0,0,0,0.4);
 }
 
@@ -29,7 +29,7 @@ main .about-introduction{
 }
 
 .introduction-banner h1{
-    font-size: 4.2em;
+    font-size: 4em;
     font-weight: 900;
     font-family:var(--cursive-font);
     color:#b1cdd1; 
@@ -72,11 +72,15 @@ main .about-introduction{
     font-weight: bold;
 }
 
-.about-introduction img{
+.about-introduction .imag-presentation{
     width: 50%;
+    height: 50%;
     margin-top: 0.2em;
     margin-left: 0.7em;
     justify-content: center;
     align-items: center;
+}
 
+.about-introduction .imag-presentation img{
+    width: 100%;
 }

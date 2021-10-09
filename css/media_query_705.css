@@ -1,6 +1,10 @@
 @media(max-width:705px){
-   .about-introduction img{
-        width: 70%;
+    .about-introduction .imag-presentation{
+        width:80%;
+    }
+
+    .about-introduction .imag-presentation img{
+        width: 100%;
     }
 
     main .about-introduction{
