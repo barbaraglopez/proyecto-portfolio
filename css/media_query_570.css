@@ -1,9 +1,17 @@
 @media(max-width:570px){
+    .my-skills{
+        justify-content: center;
+    }
+    .skills-containers{
+        justify-content: center;
+        margin: 1em;
+    }
+
     .skills-a{
-         width: 100%;
+         width: 85%;
      }
  
      .skill-box{
-         flex-basis: 42%;
+         flex-basis: 40%;
      }
  }

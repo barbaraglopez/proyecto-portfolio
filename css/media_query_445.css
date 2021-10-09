@@ -14,13 +14,13 @@
     }
 
     .my-skills .skills-title h2{
-        padding:0em 1em;
         text-align: center;
+        font-size: 3em;
     }
 
     .proyects .my-proyects h2{
-        padding:0em 1em;
         text-align: center;
+        font-size: 3em;
     }
 
     .about-introduction .about-description{

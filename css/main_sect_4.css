@@ -2,10 +2,10 @@
 .proyects{
     display:flex;
     justify-content: center;
-    background-color:#D4D9DA;
     padding: 5em 0em;
     flex-wrap: wrap;
     box-shadow:inset -10px 0px 7px 0px rgba(128, 124, 124, 0.911); 
+    background-color:var(--background-color);
 
 }   
 
@@ -20,7 +20,7 @@
 .proyects .my-proyects h2{    
     font-size: 5em;
     font-weight:900; 
-    font-family: 'Allison', cursive;
+    font-family: var(--font-title);
     justify-content: center;
     text-shadow: 18px 18px 5px rgb(160, 159, 159);
 }
@@ -75,6 +75,6 @@
 
 .proyect-box:hover{
     border: 0.1em solid black;
-    color:rgb(136, 50, 136);
+    color:var(--details-color);
 
 }

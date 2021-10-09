@@ -4,10 +4,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:#D4D9DA;
     padding: 7.9em 6em;
     flex-wrap: wrap;
     box-shadow:inset -10px 0px 7px 0px rgba(128, 124, 124, 0.911); 
+    background-color:var(--background-color);
 }
 
 .my-skills .skills-title{
@@ -20,7 +20,7 @@
 .my-skills .skills-title h2{
     font-size: 5em;
     font-weight:bold; 
-    font-family: 'Allison', cursive;
+    font-family: var(--font-title);
     justify-content: center;
     color: black;
     text-shadow: 18px 18px 5px rgb(185, 185, 185);

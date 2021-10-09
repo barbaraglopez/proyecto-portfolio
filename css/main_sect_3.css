@@ -42,7 +42,7 @@ blockquote{
     font-weight: 900;
     margin-top: 2em;
     margin-bottom: 1em;
-    font-family:'Lobster', cursive;
+    font-family:var(--cursive-font);
     color: black;
     -webkit-text-stroke: 1px rgb(15, 15, 15);
 

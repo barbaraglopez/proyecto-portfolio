@@ -1,6 +1,5 @@
 /*////footer////*/
 .footer{
-    /* background-color: #424949; */
     background-image: url("../img/fondo2-unsplash.jpg");
     background-size: cover; 
     display: flex;
@@ -52,12 +51,12 @@
 
 .footer-icon:hover {
     background-color: black;
-    border: 0.1em solid rgb(190, 34, 190);   
-    color: rgb(190, 34, 190);
+    border: 0.1em solid var(--details-color);   
+    color: var(--details-color);
 }
 
 .icon-containers:hover{
-    color:rgb(190, 34, 190);
+    color:var(--details-color);
 }
 
 .author p{

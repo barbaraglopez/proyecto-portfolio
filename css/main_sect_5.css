@@ -31,7 +31,7 @@
     font-weight:900; 
     margin-top: 0.1em;
     margin-bottom: 0.3em;
-    font-family:'Allison', cursive;
+    font-family: var(--font-title);
 }
 
 .incon-container-a{
@@ -66,11 +66,11 @@
     border-radius: 1em;
     padding: 0.3em 0.4em 0.3em 0.4em;
     color:black;
-    background-color:rgb(136, 50, 136);
+    background-color:var(--details-color);
 }
 
 .contact-list:hover a{
-    color:rgb(136, 50, 136);
+    color:var(--details-color);
 }
 
 .form-container {
@@ -82,6 +82,7 @@
     margin-top: 2em;
     margin-bottom: 2em;
 }
+
 .div-dad{
     display: flex;
     flex-direction: column;
@@ -173,10 +174,10 @@ input[name=textarea]{
  }
 
 textarea:focus, input:focus, button:focus{
-    border:2px solid rgb(136, 50, 136); 
+    border:2px solid var(--details-color); 
     border-radius: 1.5em;   
     outline: 0 none;
-    box-shadow: 1px 1px 15px 7px rgb(136, 50, 136);    
+    box-shadow: 1px 1px 15px 7px var(--details-color);    
 }
 
 .btn{
@@ -194,6 +195,6 @@ textarea:focus, input:focus, button:focus{
 }
 
 .btn:hover{
-  background-color:rgb(190, 34, 190); 
+  background-color:var(--details-color); 
   color:white;
 }

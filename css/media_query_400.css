@@ -16,8 +16,16 @@
         margin:1em 0em;
     }
 
+    .skills-containers{
+        margin:1em
+    }
+
     .skills-a{
-        margin: 1em 0em;
+        width: 90%;
+    }
+
+    .skill-box{
+        width: 44%;
     }
 
     h2.contact-form{
