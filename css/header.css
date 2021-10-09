@@ -3,8 +3,6 @@ header{
     position: sticky;
     top: 0px;
     z-index: 999;
-    box-shadow:1px 22px 22px 22px white; 
-    height: 4em;
 }
 
 a{
@@ -19,9 +17,7 @@ a{
 nav{
     display: flex;
     justify-content: flex-end;
-    box-shadow: 0.1em 0.2em 1.7em 0.4em rgba(250, 242, 242, 0.884);
     background-color:#424949; 
-    height: 7em;
 }
 
 nav ul{
@@ -34,7 +30,6 @@ nav ul{
 
 .nav-option:hover{
     color: thistle;
-    
 }
 
 .contact-button{

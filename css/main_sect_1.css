@@ -2,7 +2,7 @@
 /*///// Sección 1 /////*/
 main .about-introduction{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 8em 8.12em 11em 8.12em;
     width: 100%;
@@ -10,6 +10,10 @@ main .about-introduction{
     flex-wrap: wrap;
     align-items: center;
     box-shadow:inset -10px 0px 7px 0px rgba(143, 143, 143, 0.911); 
+}
+
+.main{
+    margin: 0em;
 }
 
 .introduction-banner {
