@@ -1,6 +1,8 @@
 /*////footer////*/
 .footer{
-    background-color: #424949;
+    /* background-color: #424949; */
+    background-image: url("../img/fondo2-unsplash.jpg");
+    background-size: cover; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,6 +21,11 @@
 
 .section-container ul li{
     list-style-type: none;
+}
+
+.section-container ul li a{
+    color: black;
+    font-weight: bold;
 }
 
 .social-contact{
@@ -54,7 +61,8 @@
 }
 
 .author p{
-    color: white;
+    color:black;
+    font-weight: bold;
     padding: 10px;
     font-size: 12px;
     text-align: center;

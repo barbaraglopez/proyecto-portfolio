@@ -18,10 +18,12 @@
 }
 
 .my-skills .skills-title h2{
-    font-size: 4.9em;
-    font-weight:900; 
+    font-size: 5em;
+    font-weight:bold; 
     font-family: 'Allison', cursive;
     justify-content: center;
+    color: black;
+    text-shadow: 18px 18px 5px rgb(185, 185, 185);
 }
 
 .my-skills .skills-title p{
@@ -67,10 +69,10 @@
     background-color: #FFFF;
     transition: all 0.1s;
     border: 0.1em solid white;
+    box-shadow: 0.1em 0.1em 1em 0.1em rgb(117, 115, 115);
 }
 
 .skill-box:hover{
     border: 0.1em solid black;
     color:#666666;
-    box-shadow: 0.1em 0.1em 1em 0.1em rgb(168, 164, 164);
 }

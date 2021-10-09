@@ -9,12 +9,14 @@
     color:white;
     height: 32em;
     flex-wrap: wrap;
-    box-shadow:inset -10px 0px 7px 0px rgba(163, 163, 163, 0.911); 
-
+    box-shadow:inset -10px 0px 7px 0px rgba(163, 163, 163, 0.911);
+    background-image: url("../img/grey-unsplash.jpg");
+    background-size: cover; 
 }
 
 .extra-info .quote{
     font-size: 4em;
+    color: black;
 }
 
 blockquote{
@@ -33,6 +35,8 @@ blockquote{
 
 .extra-info blockquote p{
     text-align: center;
+    color: black;
+    font-weight: bold;
 }
 
 .extra-info .extra-info-bottom h2{
@@ -41,4 +45,7 @@ blockquote{
     margin-top: 2em;
     margin-bottom: 1em;
     font-family:'Lobster', cursive;
+    color: black;
+    -webkit-text-stroke: 1px rgb(15, 15, 15);
+
 }

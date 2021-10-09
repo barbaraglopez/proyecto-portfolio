@@ -32,10 +32,12 @@ main .about-introduction{
     font-size: 4em;
     font-weight: 900;
     font-family:'Lobster', cursive; 
-    color:#A3B3B5;
+    color:#b1cdd1; 
     margin-left: -0.7em;
     margin-top: 0.18em;
     text-align: center;
+    text-shadow: 18px 18px 5px rgb(58, 54, 54);
+    -webkit-text-stroke: 0.2px rgb(62, 73, 70);
 }
 
 .introduction-banner .about-description{
