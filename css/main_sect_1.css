@@ -3,8 +3,8 @@
 main .about-introduction{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    padding: 8em 8.12em 11em 8.12em;
+    align-items: center; 
+    padding: 3em 1em 9em 5em;
     width: 100%;
     background-color:black;
     flex-wrap: wrap;
@@ -12,15 +12,11 @@ main .about-introduction{
     box-shadow:inset -10px 0px 7px 0px rgba(68, 68, 68, 0.911); 
 }
 
-.main{
-    margin: 0em;
-}
-
 .introduction-banner {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-left: 1em;
+    margin:0 auto;
 }
 
 .introduction-banner .about-intro{
@@ -32,16 +28,14 @@ main .about-introduction{
 }
 
 .introduction-banner h1{
-    font-size: 4em;
+    font-size: 5em;
     font-weight: 900;
     font-family:var(--cursive-font);
-    /* color:#b1cdd1;  */
     color: black;
     margin-left: -0.7em;
     margin-top: 0.18em;
     text-align: center;
     -webkit-text-stroke: 0.1px rgb(239, 247, 243);  
-    /* text-shadow: 20px 20px 10px rgb(136, 134, 134); */
 }
 
 .introduction-banner .about-description{
@@ -68,7 +62,7 @@ main .about-introduction{
 }
 
 .info-button:hover{
-    background-color: thistle;
+    background-color: rgb(127, 127, 214);
 }
 
 .info-button:hover p{
@@ -79,12 +73,10 @@ main .about-introduction{
 .about-introduction .imag-presentation{
     width: 50%;
     height: 50%;
-    margin-top: 0.2em;
-    margin-left: 0.7em;
     justify-content: center;
     align-items: center;
 }
 
 .about-introduction .imag-presentation img{
-    width: 100%;
+    width: 80%;
 }
