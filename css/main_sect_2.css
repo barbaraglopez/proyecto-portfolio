@@ -23,7 +23,7 @@
     font-family: var(--font-title);
     justify-content: center;
     color: black;
-    text-shadow: 18px 18px 5px rgb(185, 185, 185);
+    text-shadow: 18px 18px 5px rgb(160, 159, 159)
 }
 
 .my-skills .skills-title p{

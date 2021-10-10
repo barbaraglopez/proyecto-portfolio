@@ -54,11 +54,12 @@
     transition: all 0.1s;
     border: 0.1em solid white;
     box-shadow: 0.1em 0.1em 1em 0.1em rgb(117, 115, 115);
+    
 }
 
 .proyect-box img{
     width: 80%;
-    height: 70%;
+    height: 80%;
 }
 
 .proyect-box p{

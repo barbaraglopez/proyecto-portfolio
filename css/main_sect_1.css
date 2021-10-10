@@ -6,10 +6,10 @@ main .about-introduction{
     align-items: center;
     padding: 8em 8.12em 11em 8.12em;
     width: 100%;
-    background-color: black;
+    background-color:black;
     flex-wrap: wrap;
     align-items: center;
-    box-shadow:inset -10px 0px 7px 0px rgba(143, 143, 143, 0.911); 
+    box-shadow:inset -10px 0px 7px 0px rgba(68, 68, 68, 0.911); 
 }
 
 .main{
@@ -21,7 +21,6 @@ main .about-introduction{
     flex-direction: column;
     flex-wrap: wrap;
     margin-left: 1em;
-    box-shadow:inset -7px 0px 5px 0px rgba(0,0,0,0.4);
 }
 
 .introduction-banner .about-intro{
@@ -36,12 +35,13 @@ main .about-introduction{
     font-size: 4em;
     font-weight: 900;
     font-family:var(--cursive-font);
-    color:#b1cdd1; 
+    /* color:#b1cdd1;  */
+    color: black;
     margin-left: -0.7em;
     margin-top: 0.18em;
     text-align: center;
-    text-shadow: 18px 18px 5px rgb(58, 54, 54);
-    -webkit-text-stroke: 0.2px rgb(62, 73, 70);
+    -webkit-text-stroke: 0.1px rgb(239, 247, 243);  
+    /* text-shadow: 20px 20px 10px rgb(136, 134, 134); */
 }
 
 .introduction-banner .about-description{

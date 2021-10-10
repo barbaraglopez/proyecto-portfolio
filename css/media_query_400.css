@@ -1,4 +1,5 @@
 @media(max-width:400px){
+
     .quote h2{
         font-size: 1.2em;
     }
@@ -36,15 +37,24 @@
     .div.footer{
         width: 50%;
     }
+
+    .about-introduction{
+        justify-content: space-between;
+        align-items: flex-start;
+    }
     
     .about-introduction img{
         width: 70%;
     }
 
-    .about-introduction h1{
-        font-size: 1em;
-        margin: 0 auto;
-    } 
+    .info-button{
+        padding: 0em;
+        margin:0 auto;
+    }
+
+    .about-introduction .introduction-banner{
+        margin-bottom: -3em;
+    }
 
     h2.contact-form {
     padding-bottom: 0.1em;
