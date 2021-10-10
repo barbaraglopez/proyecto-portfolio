@@ -69,26 +69,24 @@
         position: absolute;
         top:27px;
         left: 15px;
-} 
+    } 
     input[name=enviar]{
         position: relative;
         top:55px;
         left:9px;
-}
+    }
     label[name=textarea]{
         position: absolute;
         top:5px;
         left: 17px;
         width: 50%;
-}
+    }
 
    .btn{
         width: 100%;
     }
 
-    
     blockquote{
         padding:0em 3em;
     }
-
 }
