@@ -3,10 +3,9 @@
     display: flex;
     justify-content:center;
     background-color:white;
-    border: 2px solid white;
     color: white;
     padding: 1em;
-    box-shadow:inset -10px 0px 7px 0px rgba(128, 124, 124, 0.911); 
+    /* box-shadow:inset -10px 0px 7px 0px rgba(196, 196, 196, 0.911);  */
 
 }
 
@@ -56,17 +55,12 @@
     transition: all 0.2s;
 }
 
-.contact-list:focus .icon-contact{
-    box-shadow: 1px 1px 15px 25px rgb(243, 233, 243);    
-
-}
-
 .contact-list:hover i{
-    border: 0.1em solid var(--background-color) ; 
-    border-radius: 1em;
+    border-radius: rgb(127, 127, 214);
     padding: 0.3em 0.4em 0.3em 0.4em;
-    color:black;
+    color:white;
     background-color:var(--details-color);
+    text-shadow:1px 1px 55px rgb(127,127,214);
 }
 
 .contact-list:hover a{

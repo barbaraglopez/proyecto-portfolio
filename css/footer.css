@@ -37,7 +37,7 @@
 }
 
 .icon-containers a:focus{
-    box-shadow: 1px 1px 15px 15px rgb(136, 50, 136);    
+    box-shadow: 1px 1px 15px 15px var(--details-color);    
 }
 
 .icon-containers .footer-icon{

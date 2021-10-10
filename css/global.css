@@ -8,3 +8,11 @@ body{
     color:black;
     box-shadow:inset -10px 0px 7px 0px rgba(80, 79, 79, 0.911); 
 }
+
+.shadow{
+    position: fixed;
+    width: 10px;
+    height: 100%;
+    right:-10px;
+    box-shadow: -10px 0px 25px 1px rgb(118, 118, 218);
+}

@@ -4,10 +4,9 @@
     justify-content: center;
     padding: 5em 0em;
     flex-wrap: wrap;
-    box-shadow:inset -10px 0px 7px 0px rgba(128, 124, 124, 0.911); 
+    /* box-shadow:inset -10px 0px 7px 0px rgba(128, 124, 124, 0.911);  */
     background-color:var(--background-color);
-
-}   
+}
 
 .proyects .my-proyects{
     display: flex;

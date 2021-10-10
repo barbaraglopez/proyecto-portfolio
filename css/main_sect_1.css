@@ -9,7 +9,7 @@ main .about-introduction{
     background-color:black;
     flex-wrap: wrap;
     align-items: center;
-    box-shadow:inset -10px 0px 7px 0px rgba(68, 68, 68, 0.911); 
+    /* box-shadow:inset -10px 0px 7px 0px rgba(68, 68, 68, 0.911);  */
 }
 
 .introduction-banner {
@@ -22,7 +22,7 @@ main .about-introduction{
 .introduction-banner .about-intro{
     font-weight:800;
     font-size: 1.2em;
-    margin-left: -1.9em;
+    margin-left: -2.4em;
     margin-top: 1.25;
     color: #B3B6B7;
 }
