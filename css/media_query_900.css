@@ -1,49 +1,49 @@
 @media(max-width:900px){
     .about-introduction img{
-         width: 65%;
+        width: 65%;
     }
 
     .about-introduction .info-button a p{
         font-size: 1.7em;
     }
-     
-     .proyects{
-         padding:3em 2em;
-     } 
+    
+    .proyects{
+        padding:3em 2em;
+    } 
 
     .proyects-containers{
         width: 100%;
-     }
- 
-     .proyect-box{
-         flex-basis: 45%;
-     } 
+    }
 
-     .contact-section{
-         display: flex;
-         flex-direction: column;
-     }
- 
-     .form-container{
-         margin-top: 0em;
-         padding-left: 1.9em;
-     }
- 
-     .incon-container-a{
-         display: flex;
-         justify-content: flex-start;
-     }
- 
-     .icon-a{
-         margin-right: 1em;
-     }
- 
-     .btn{
-         height: 1em;
-     }
- 
-     .section-container{
-         margin: 0em;
- 
-     } 
- }
+    .proyect-box{
+        flex-basis: 45%;
+    } 
+
+    .contact-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-container{
+        margin-top: 0em;
+        padding-left: 1em;
+    }
+
+    .incon-container-a{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .icon-a{
+        margin-right: 1em;
+    }
+
+    .btn{
+        height: 1em;
+    }
+
+    .section-container{
+        margin: 0em;
+
+    } 
+}

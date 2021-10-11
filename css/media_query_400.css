@@ -52,11 +52,16 @@
         margin:0 auto;
     }
 
-    .about-introduction .introduction-banner{
-        margin-bottom: -3em;
-    }
-
     h2.contact-form {
     padding-bottom: 0.1em;
     }
+
+    
+    .contact-section{
+        margin-top:300px;
+    }
+
+    .proyects-containers{
+        margin-bottom: 1em;
+    } 
 }

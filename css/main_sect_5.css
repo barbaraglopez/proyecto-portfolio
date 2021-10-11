@@ -5,8 +5,6 @@
     background-color:white;
     color: white;
     padding: 1em;
-    /* box-shadow:inset -10px 0px 7px 0px rgba(196, 196, 196, 0.911);  */
-
 }
 
 .contact-container{
@@ -32,6 +30,8 @@
     margin-bottom: 0.3em;
     font-family: var(--font-title);
 }
+
+/* ------------------------------------INICIO DE LISTA DE ICONOS Y LINKS----------------------------------------- */
 
 .incon-container-a{
     padding: 1em 0.2em;
@@ -67,6 +67,7 @@
     color:var(--details-color);
 }
 
+/* ------------------------------------------INICIO DE FORMULARIO------------------------------------------------- */
 .form-container {
     display: flex;
     flex-wrap: wrap;
@@ -85,29 +86,25 @@
 
 .first{
     display: flex;
-}
-
-.first{
-    display: flex;
     width: 100%;
     flex-wrap: wrap;   
 }
 
+.formfirst{
+    display: flex;
+    padding-bottom: 0.6em;
+    }
+
 .form1{
     display: flex;
     flex-direction: column;
-    max-width: 60em;
-    flex: 1;
+    width: 40%;
 }
 
 .form2{
     display: flex;
     flex-direction: column;
-    position: relative;
-    bottom: 62.99px;
-    left: 165px;
-    max-width: 50em;
-    flex: 1;
+    width: 40%;
 }
 
 label{
@@ -115,31 +112,26 @@ label{
 }
 
 input[name=name]{
-    width: 90%;
-    display: inline;
-    padding: 0.5em 0.1em;
+    width:90%;
+    padding: 0.5em 0.1em; 
  }
 
 input[name=lastname]{
-    width: 90%;
-    display: inline;
-    padding: 0.6em 0.1em;
+    width:90%;
+    padding: 0.5em 0.1em;
  }
 
  input[type=email]{
-    max-width: 85%;
-    display: block;
+    width: 80%;
     margin-bottom: 1em;
-    padding: 0.6em 0.1em;
-    flex: 1;
+    padding: 0.6em 0.1em; 
  }
 
  label[name=email]{
-    display: block;
     margin-bottom: 0.5em;
  }
 
- input, textarea{
+input, textarea{
      border-radius: 1em;
      transition: all 0.3s;    
  }
@@ -148,9 +140,6 @@ input[name=lastname]{
     display:flex;
     flex-direction: column;
     align-items: flex-start;
-    position: relative;
-    bottom: 51px;
-    left: -8px;
     padding: 0.1em 0.3em;
 } 
 
@@ -159,8 +148,8 @@ label[name=textarea]{
 }
 
 textarea{
-    max-width: 90%;
-    height:50%;
+    max-width: 80%;
+    height: 5em;
 }
 
 input[name=textarea]{
@@ -171,14 +160,13 @@ textarea:focus, input:focus, button:focus{
     border:2px solid var(--details-color); 
     border-radius: 1.5em;   
     outline: 0 none;
-    box-shadow: 1px 1px 15px 7px var(--details-color);    
+    box-shadow: 1px 1px 10px 2px var(--details-color);    
 }
 
 .btn{
     background-color:white; 
     font-weight: bold;
-    padding-bottom: 2em;
-    padding-top: 0.7em;
+    padding: 0.5em 1em 0.5em 1em;
     display: block;
     margin-top: 1em;
     margin-left: 0.2em;
@@ -190,5 +178,7 @@ textarea:focus, input:focus, button:focus{
 
 .btn:hover{
   background-color:var(--details-color); 
-  color:white;
+  color:black;
+  text-shadow: 1px 1px 90px white;
 }
+/* ------------------------------------------INICIO DE FORMULARIO------------------------------------------------- */

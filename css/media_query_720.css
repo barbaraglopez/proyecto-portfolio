@@ -1,5 +1,10 @@
 @media(max-width:720px){
     .about-introduction img{
-         padding-bottom: 5em;
-     }
- }
+        padding-bottom: 2em;
+    }
+
+    .about-introduction .about-description{
+        text-align: center;
+        font-size: 1em;
+    }
+}

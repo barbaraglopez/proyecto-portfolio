@@ -6,7 +6,6 @@
     align-items: center;
     padding: 6em;
     flex-wrap: wrap;
-    /* box-shadow:inset -10px 0px 7px 0px rgba(59, 52, 52, 0.911);  */
     background-color:var(--background-color);
 }
 

@@ -8,10 +8,10 @@
     }
 
     .skills-a{
-         width: 85%;
-     }
- 
-     .skill-box{
-         flex-basis: 40%;
-     }
- }
+        width: 85%;
+    }
+
+    .skill-box{
+        flex-basis: 40%;
+    }
+}

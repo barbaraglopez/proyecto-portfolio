@@ -13,8 +13,6 @@
 
     .about-introduction h1{
         font-size: 3em;
-        padding:0em;
-        margin: 0em;
     }
 
     .my-skills .skills-title h2{
@@ -30,24 +28,28 @@
     .about-introduction .about-description{
         text-align: center;
         font-size: 1em;
-        margin: 0 auto;
+        margin: 0em 0.5em 0em 0.5em; 
+        text-align: center;
     }
-    .about-introduction .info-button{
-        width: 60%;
-        margin:0em 1em 10em 1em;
-        padding:1em;
+
+    main .about-introduction{
+        /* padding: 5em 2em; */
     }
 
     .about-introduction .info-button a p{
-        font-size: 1.3em;
-    }
-
-    .introduction-banner .about-description{
-         margin: 0em 0.5em 0em 0.5em; 
-         text-align: center;
+        font-size: 1em;
     }
 
     .about-introduction img{
         width: 90%;
     }  
+
+    
+    .contact-section{
+        margin-top:900px;
+    }
+
+    .proyects-containers{
+        margin-bottom: 1em;
+    } 
 } 

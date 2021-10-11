@@ -3,6 +3,10 @@
         flex-direction: column;
     }
 
+    .introduction-banner{
+        margin:2em 0em;
+    }
+
     main{
         background-color:#D4D9DA;
     }
@@ -11,82 +15,45 @@
         margin-top:900px;
     }
 
-   .proyects-containers{
-       margin-bottom: 2em;
-       margin-left: 1em;
-       margin-right: 1em;
-   }
-
-    .form-container{
-       padding: 1em 1em 4em 1em;
-   }
-
-   .form-container .contact-form{
-       padding: 0em 0em 2em 0em;
-    } 
- 
-    form input[name=name]{
-        position: relative;
-        bottom: 190px;
-        left: 5px;
-    } 
-
-     form label[name=name]{
-        position: relative;
-        bottom: 191px;
-        left:6px;
+    .proyects-containers{
+        margin-bottom: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
     }
 
-    input[name=lastname]{
-       position: absolute;
-       bottom:60px;
-       right:178px;
+    .form{
+        padding:2em 0em;
     }
 
-    label[name=lastname]{
-        position: absolute;
-        bottom:72px;
-        right: 267px;
-     }
- 
-    input[name=email]{
-        position: absolute;
-        bottom:50px;
-        left: 15px;
+    .formfirst{
+        flex-direction: column;
+        justify-content: flex-start;
     }
 
-    label[name=email]{
-        position: absolute;
-        bottom:92px;
-        left: 17px;
-    }
-
-    .contact-container p{
-        padding: 0em;
-    }
-
-    textarea{
-        position: absolute;
-        top:27px;
-        left: 15px;
-    } 
-    input[name=enviar]{
-        position: relative;
-        top:55px;
-        left:9px;
-    }
-    label[name=textarea]{
-        position: absolute;
-        top:5px;
-        left: 17px;
+    input[type=email]{
         width: 50%;
     }
 
-   .btn{
-        width: 100%;
+    .btn{
+        height: 10%;
+        width: 50%;
+        margin-bottom: 2em;
+    }
+
+    .textarea{
+        height: 60%;
+        width: 70%;
     }
 
     blockquote{
         padding:0em 3em;
     }
+
+    .contact-section{
+        margin-top:950px;
+    }
+
+    .proyects-containers{
+        margin-bottom: 1em;
+    } 
 }

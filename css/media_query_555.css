@@ -3,12 +3,8 @@
         font-size: 4.2em;
     }
 
-    .about-introduction .about-description{
-        font-size: 1.4em;
-    }
-
-     .proyects-containers{
-       width: 95%;
+    .proyects-containers{
+        width: 95%;
     }
 
     .proyect-box{
@@ -23,18 +19,17 @@
 
     main{
         background-color:#D4D9DA;
-        box-shadow:inset -10px 0px 7px 0px rgba(128, 124, 124, 0.911); 
     }
 
     .contact-section{
-        margin-top:950px;
+        margin-top:1050px;
     }
 
-   .proyects-containers{
-       margin-bottom: 2em;
-   } 
+    .proyects-containers{
+        margin-bottom: 3em;
+    } 
 
-   .skills-containers{
-       margin: 0em 1em;
-   }
+    .skills-containers{
+        margin: 0em 1em;
+    }
 }

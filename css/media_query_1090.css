@@ -4,36 +4,42 @@
         display: none;
     }
 
-    body{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    #presentation{
+        padding:4em 2em;
+    }
+
+    .imag-presentation{
+        margin: auto;
     }
 
     .about-introduction{
-        display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
         margin: 0em auto;
-        padding:0em;
+        padding:1em 1em;
     }
 
     .introduction-banner h1{
         font-size: 7em;
+        margin: auto;
     }
 
     .introduction-banner .about-intro{
         font-size: 2em;
+        margin: auto;
     }
 
     .introduction-banner .about-description{
         font-size: 1.7em;
+        margin: auto;
+    }
+    .introduction-banner .info-button{
+        margin-left: 0em;
     }
 
     .info-button{
-        width: 60%;
-        margin:0em 1em 10em 1em;
+        width: 50%;
+        margin:0em 0em 2em 0em;
     }
 
     .about-introduction .info-button a p{
@@ -41,14 +47,13 @@
     }
     
     .about-introduction .imag-presentation{
-        width:80%;
+        width:50%;
+        margin: auto;
     }
 
     .about-introduction .imag-presentation img{
         width: 100%;
     }
-
-
 
     .introduction-banner, .about-intro, .about-description ,.info-button{
         display: flex;
@@ -57,20 +62,18 @@
         align-items: center;
     }
 
-    .info-button{
-        width: 60%;
-        margin:0em 1em 10em 1em;
-    }
-
     .about-introduction .info-button a p{
         font-size: 2em;
     }
 
-    .about-introduction img{
-        width: 70%;
-    }
-
     .footer{
         min-width:100%;
+    }
+
+    .btn{
+        height: 20%;
+        width: 50%;
+        margin-bottom: 2em;
+        padding: 1em 1em 2em 1em;
     }
 }
