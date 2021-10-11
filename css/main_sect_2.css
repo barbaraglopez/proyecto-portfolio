@@ -1,5 +1,5 @@
 /*///// Sección 2 /////*/
-.my-skills{
+.my-skills{ /*/////------------------------ INICIO DE GRILLAS DE CONOCIMIENTOS --------------------------/////*/
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -55,7 +55,7 @@
     margin: 0.7em;
     font-weight: bold;
 }
-.skill-box{
+.skill-box{     /*/////------------------------ CARDS DE CONOCIMIENTOS--------------------------/////*/
     display: flex;
     flex-direction: column;
     justify-content: center;

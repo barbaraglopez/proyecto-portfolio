@@ -1,5 +1,5 @@
 /*///// Sección3 /////*/
-.extra-info {
+.extra-info { /*/////------------------------ FONDO DE CITA--------------------------/////*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,7 +30,7 @@ blockquote{
     margin-bottom: 1.5em;
 }
 
-.extra-info blockquote p{
+.extra-info blockquote p{/*/////------------------------ FRASE DE CITA --------------------------/////*/
     text-align: center;
     color: black;
     font-weight: bold;

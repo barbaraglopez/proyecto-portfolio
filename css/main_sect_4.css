@@ -1,5 +1,5 @@
 /*//// Section 4 ////*/
-.proyects{
+.proyects{ /*/////------------------------ INICIO DE IS PROYECTOS --------------------------/////*/
     display:flex;
     justify-content: center;
     padding: 5em 0em;
@@ -39,7 +39,7 @@
     width: 80%;
 }
 
-.proyect-box{
+.proyect-box{ /*/////------------------------ CARDS DE PROYECTOS --------------------------/////*/
     display: flex;
     flex-direction: column;
     justify-content: center;

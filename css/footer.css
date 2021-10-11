@@ -1,5 +1,5 @@
 /*////footer////*/
-.footer{
+.footer{ /*/////------------------------ INICIO FONDO FOOTER --------------------------/////*/
     background-image: url("../img/fondo2-unsplash.jpg");
     background-size: cover; 
     display: flex;
@@ -8,7 +8,7 @@
     justify-content: center;
     padding: 4.5em 0em;
     width: 100%;
-}
+} /*/////------------------------ INICIO LISTA ICONOS CONTACTO --------------------------/////*/
 
 .section-container ul{
     display: flex;
@@ -55,7 +55,7 @@
 
 .icon-containers:hover{
     color:var(--details-color);
-}
+} /*/////------------------------ PIE DE AUTOR --------------------------/////*/
 
 .author p{
     color:black;

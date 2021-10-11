@@ -32,4 +32,8 @@
     .skills-containers{
         margin: 0em 1em;
     }
+
+    .skill-box{
+        min-height: 8em;
+    }
 }

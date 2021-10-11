@@ -11,7 +11,7 @@ main .about-introduction{
     align-items: center;
 }
 
-.introduction-banner {
+.introduction-banner {  /*/////------------------------ INICIO DE BANNER CON SALUDO --------------------------/////*/
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -69,7 +69,7 @@ main .about-introduction{
     font-weight: bold;
 }
 
-.about-introduction .imag-presentation{
+.about-introduction .imag-presentation{/*/////------------------------ IMAGEN DE SECCION 1 --------------------------/////*/
     width: 50%;
     height: 50%;
     justify-content: center;

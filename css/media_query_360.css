@@ -1,9 +1,21 @@
 @media(max-width:360px){
+
     .skills-a{
         width: 50%;
 } 
     .skill-box{
         flex-basis: 100%;
 }
+
+    .skill-box p{
+        width: 40%;
+        text-align: center; 
+        font-size: 0.6em;
+    }
+
+    .skill-box img{
+        width: 50%;
+        text-align: center; 
+    }
 }
 

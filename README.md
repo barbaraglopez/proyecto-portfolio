@@ -1,7 +1,17 @@
 # Mi portfolio Bárbara Lápez
 *Mi primer proyecto en Ada, espero les guste!*
+Puedes ver mi portfolio clickeando [Aquí](https://barbaraglopez.github.io/proyecto-portfolio/)
 
-![info](img/section1.png)
+
+Tabla de contenidos:
+- Navegación.
+- Sección "Mis conocimientos".
+- Sección cita Alvin Toffler.
+- Sección "Mis proyectos"
+- Formulario y cards de contacto.
+- Footer.
+
+![info](img/intro-banner.png)
 
 *En la primera sección podemos visualizar una introducción al contenido que cuenta con una barra de navegacioón con cuatro atajos a las respectivas secciones. Luego una breve introduccion que cuenta con*:
 
@@ -10,7 +20,7 @@
 - Una breve descripción
 
 
-![info](img/section2.png)
+![info](img/my-skills.png)
 
 *En la segunda seccion tenemos una representación en grillas que contienen iconos de diferentes lenguajes de programación, plataformas y programas que aprendimos a utilizar a lo largo de la cursada. Los mismos son*:
 1. HTML
@@ -20,13 +30,15 @@
 5. REACT
 6. GIT
 
-![info](img/section3.png)
+![info](img/quote.png)
 
 *En la tercera sección tenemos la cita de un gran visionario pedagógico*
 >Los analfabetos del siglo XXI no serán aquellos que no sepan leer o escribir, sino aquellos que no puedan aprender, desaprender y reaprender.
 
 
-![info](img/section4.png)
+
+
+![info](img/my-proyects.png)
 
 *En la cuarta seccion tenemos una grilla representativa de los proyectos que suceden una vez finalizado este mismo, estos son:*
 
@@ -48,3 +60,5 @@
 - [linkgithubrepositiries](https://github.com/barbaraglopez)
 
 *Finalizamos con el footer, en color gris, con atajos a las secciones y links a mis redes sociales.*
+
+![info](img/footer.png)

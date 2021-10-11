@@ -1,5 +1,5 @@
 /*//// Section 5 ////*/
-.contact-section{
+.contact-section{ 
     display: flex;
     justify-content:center;
     background-color:white;
@@ -114,27 +114,27 @@ label{
 input[name=name]{
     width:90%;
     padding: 0.5em 0.1em; 
- }
+}
 
 input[name=lastname]{
     width:90%;
     padding: 0.5em 0.1em;
- }
+}
 
- input[type=email]{
+input[type=email]{
     width: 80%;
     margin-bottom: 1em;
     padding: 0.6em 0.1em; 
- }
+}
 
- label[name=email]{
+label[name=email]{
     margin-bottom: 0.5em;
- }
+}
 
 input, textarea{
-     border-radius: 1em;
-     transition: all 0.3s;    
- }
+    border-radius: 1em;
+    transition: all 0.3s;    
+}
 
 .second{
     display:flex;
@@ -154,7 +154,7 @@ textarea{
 
 input[name=textarea]{
     border-radius: 2em;
- }
+}
 
 textarea:focus, input:focus, button:focus{
     border:2px solid var(--details-color); 
@@ -177,8 +177,8 @@ textarea:focus, input:focus, button:focus{
 }
 
 .btn:hover{
-  background-color:var(--details-color); 
-  color:black;
-  text-shadow: 1px 1px 90px white;
+    background-color:var(--details-color); 
+    color:black;
+    text-shadow: 1px 1px 90px white;
 }
-/* ------------------------------------------INICIO DE FORMULARIO------------------------------------------------- */
+/* ------------------------------------------FINAL DE FORMULARIO------------------------------------------------- */
