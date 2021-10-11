@@ -12,13 +12,19 @@
     }
 
     .contact-section{
-        margin-top:900px;
+        overflow: hidden;
+        margin-top:3em;
+        padding: 0em;
     }
 
     .proyects-containers{
         margin-bottom: 2em;
         margin-left: 1em;
         margin-right: 1em;
+    }
+
+    .form-container{
+        padding-left: 0.5em;
     }
 
     .form{
@@ -47,10 +53,6 @@
 
     blockquote{
         padding:0em 3em;
-    }
-
-    .contact-section{
-        margin-top:950px;
     }
 
     .proyects-containers{

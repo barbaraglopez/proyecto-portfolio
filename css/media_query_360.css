@@ -1,0 +1,9 @@
+@media(max-width:360px){
+    .skills-a{
+        width: 50%;
+} 
+    .skill-box{
+        flex-basis: 100%;
+}
+}
+
